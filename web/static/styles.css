@@ -1,0 +1,5 @@
+#content {
+    min-height: 100vh;
+    background-image: url('images/ds_bg-min.jpg');
+    background-size: cover;
+}
