@@ -9,14 +9,130 @@
 <body>
 <div class="container mt-5">
     <form method="post">
-        <div class="form-group">
-            <input type="text" class="form-control" name="feature1" placeholder="feature1"/>
+        <div class="container">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="form-group" id="age">
+                    <label>What's your age?</label>
+                    <div class="form-check mt-5">
+                        <input type="radio" class="form-check-input" id="age-18-21" name="age" value="18-21"/>
+                        <label class="form-check-label" for="age-18-21">18 - 21</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-22-24" name="age" value="22-24"/>
+                        <label class="form-check-label" for="age-22-24">22 - 24</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-25-29" name="age" value="25-29"/>
+                        <label class="form-check-label" for="age-25-29">25 - 29</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-30-34" name="age" value="30-34"/>
+                        <label class="form-check-label" for="age-30-34">30 - 34</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-35-39" name="age" value="35-39"/>
+                        <label class="form-check-label" for="age-35-39">35 - 39</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-40-44" name="age" value="40-44"/>
+                        <label class="form-check-label" for="age-40-44">40 - 44</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-45-49" name="age" value="45-49"/>
+                        <label class="form-check-label" for="age-45-49">45 - 49</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-50-54" name="age" value="50-54"/>
+                        <label class="form-check-label" for="age-50-54">50 - 54</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-55-59" name="age" value="55-59"/>
+                        <label class="form-check-label" for="age-55-59">55 - 59</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="age-60-69" name="age" value="60-69"/>
+                        <label class="form-check-label" for="age-60-69">60 - 69</label>
+                    </div>
+                    <button type="button" class="btn btn-dark mt-5" id="age-btn">Next question</button>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <input type="text" class="form-control" name="feature2" placeholder="feature2"/>
+        <div class="container">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="form-group" id="country" hidden>
+                    <label>Which country do you currently reside in?</label>
+                    <div class="form-check mt-5">
+                        <input type="radio" class="form-check-input" id="country-australia" name="country"
+                               value="australia"/>
+                        <label class="form-check-label" for="country-australia">Australia</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-brazil" name="country" value="brazil"/>
+                        <label class="form-check-label" for="country-brazil">Brazil</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-canada" name="country" value="canada"/>
+                        <label class="form-check-label" for="country-canada">Canada</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-china" name="country" value="china"/>
+                        <label class="form-check-label" for="country-china">China</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-france" name="country" value="france"/>
+                        <label class="form-check-label" for="country-france">France</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-germany" name="country"
+                               value="germany"/>
+                        <label class="form-check-label" for="country-germany">Germany</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-india" name="country" value="india"/>
+                        <label class="form-check-label" for="country-india">India</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-italy" name="country" value="italy"/>
+                        <label class="form-check-label" for="country-italy">Italy</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-japan" name="country" value="japan"/>
+                        <label class="form-check-label" for="country-japan">Japan</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-mexico" name="country" value="mexico"/>
+                        <label class="form-check-label" for="country-mexico">Mexico</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-russia" name="country" value="russia"/>
+                        <label class="form-check-label" for="country-russia">Russia</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-spain" name="country" value="spain"/>
+                        <label class="form-check-label" for="country-spain">Spain</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-uk" name="country" value="uk"/>
+                        <label class="form-check-label" for="country-uk">United Kingdom</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-us" name="country" value="us"/>
+                        <label class="form-check-label" for="country-us">United States of America</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="country-other" name="country" value="other"/>
+                        <label class="form-check-label" for="country-other">Other</label>
+                    </div>
+                    <button class="btn btn-dark mt-5">Next question</button>
+                </div>
+            </div>
         </div>
-        <button type="submit" class="btn btn-primary">What's my salary?</button>
+
     </form>
 </div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="{{url_for('static', filename='script.js')}}"></script>
 </body>
 </html>
