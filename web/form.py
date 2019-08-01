@@ -28,9 +28,12 @@ def form():
         return render_template('prediction.html', salary=salary_index, salary_distribution=dist)
 
 
-@app.route('/recommendation-form')
-def recommendation_form():
-    return render_template('rec_form.html')
+@app.route('/recommendation', methods=('GET', 'POST'))
+def recommendation():
+    if request.method == 'GET':
+        return render_template('rec_form.html')
+    if request.method == 'POST'():
+        return  render_template('recommendation.html')
 
 
 if __name__ == '__main__':

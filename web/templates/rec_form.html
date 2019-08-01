@@ -2,7 +2,7 @@
 {% block title %}Recommendation form!{% endblock %}
 {% block content %}
     <form id="rec_form" method="post" action="">
-        <div class="container">
+        <section id="primary_tool_container" class="container active">
             <div class="d-flex flex-row mt-5 justify-content-start">
                 <div class="question-box col-md-6">
                     <p>Ok, let’s have a look at your skills. Please fill in your current knowledge in the following.</p>
@@ -63,8 +63,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+        </section>
+        <section id="cloud_services_container" class="d-none container">
             <div class="d-flex flex-row mt-5 justify-content-start">
                 <div class="question-box col-md-6">
                     <p> Which of the following cloud computing services have you used at work or school in the last 5
@@ -125,13 +125,724 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex flex-row">
-        </div>
-        <div class="container">
-            <div class="d-flex flex-row mt-5 justify-content-end">
-                <a href="/recomendation" class="btn btn-primary btn-md">Continue!</a>
+        </section>
+        <section id="regular_languages_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p> What specific programming language do you use on a regular basis (select all that apply)?</p>
+                </div>
             </div>
-        </div>
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I have experience in</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Bash" id="bash">
+                        <label class="form-check-label" for="bash">
+                            Bash
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="C/C++" id="c">
+                        <label class="form-check-label" for="c">
+                            C/C++
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="C#/.NET" id="dot_net">
+                        <label class="form-check-label" for="dot_net">
+                            C#/.NET
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Go" id="go">
+                        <label class="form-check-label" for="go">
+                            Go
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Java" id="java">
+                        <label class="form-check-label" for="java">
+                            Java
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Javascript/Typescript" id="js">
+                        <label class="form-check-label" for="js">
+                            Javascript/Typescript
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Julia" id="julia">
+                        <label class="form-check-label" for="julia">
+                            Julia
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="MATLAB" id="matlab">
+                        <label class="form-check-label" for="matlab">
+                            MATLAB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="PHP" id="php">
+                        <label class="form-check-label" for="php">
+                            PHP
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Python" id="python">
+                        <label class="form-check-label" for="python">
+                            Python
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="R" id="r">
+                        <label class="form-check-label" for="r">
+                            R
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Ruby" id="ruby">
+                        <label class="form-check-label" for="ruby">
+                            Ruby
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="SAS/STATA" id="sas">
+                        <label class="form-check-label" for="sas">
+                            SAS/STATA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Scala" id="scala">
+                        <label class="form-check-label" for="scala">
+                            Scala
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="SQL" id="sql">
+                        <label class="form-check-label" for="sql">
+                            SQL
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Visual Basic/VBA" id="vba">
+                        <label class="form-check-label" for="vba">
+                            Visual Basic/VBA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="Other" id="regular_language_other">
+                        <label class="form-check-label" for="regular_language_other">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="regular_languages" type="checkbox"
+                               value="None" id="regular_language_any">
+                        <label class="form-check-label" for="regular_language_any">
+                            None
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ml_frameworks_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>What machine learning frameworks have you used in the past 5 years (select all that apply)?</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I have experience on</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Caffe" id="caffe">
+                        <label class="form-check-label" for="caffe">
+                            Caffe
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Caret" id="caret">
+                        <label class="form-check-label" for="caret">
+                            Caret
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Catboost" id="catboost">
+                        <label class="form-check-label" for="catboost">
+                            Catboost
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="CNTK" id="cntk">
+                        <label class="form-check-label" for="cntk">
+                            CNTK
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="FastAI" id="fastai">
+                        <label class="form-check-label" for="fastai">
+                            FastAI
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="H2O" id="h2o">
+                        <label class="form-check-label" for="h2o">
+                            H2O
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Keras" id="keras">
+                        <label class="form-check-label" for="keras">
+                            Keras
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="LightGBM" id="lightgbm">
+                        <label class="form-check-label" for="lightgbm">
+                            LightGBM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="MLR" id="mlr">
+                        <label class="form-check-label" for="mlr">
+                            MLR
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="MxNET" id="mxnet">
+                        <label class="form-check-label" for="mxnet">
+                            MxNET
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Prophet" id="prophet">
+                        <label class="form-check-label" for="prophet">
+                            Prophet
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="PyTorch" id="pytorch">
+                        <label class="form-check-label" for="pytorch">
+                            PyTorch
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="RandomForest" id="random_forest">
+                        <label class="form-check-label" for="random_forest">
+                            RandomForest
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Scikit-Learn" id="sklearn">
+                        <label class="form-check-label" for="sklearn">
+                            Scikit-Learn
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Tensorflow" id="tensorflow">
+                        <label class="form-check-label" for="tensorflow">
+                            Tensorflow
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="XGBoost" id="xgboost">
+                        <label class="form-check-label" for="xgboost">
+                            XGBoost
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="Other" id="ml_frameworks_other">
+                        <label class="form-check-label" for="ml_frameworks_other">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
+                               value="None" id="ml_frameworks_any">
+                        <label class="form-check-label" for="ml_frameworks_any">
+                            None
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="visual_libs_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p> What data visualization libraries or tools have you used in the past 5 years (select all that
+                        apply)?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I have experience in</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Altair" id="altair">
+                        <label class="form-check-label" for="altair">
+                            Altair
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Bokeh" id="bokeh">
+                        <label class="form-check-label" for="bokeh">
+                            Bokeh
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="D3" id="d3">
+                        <label class="form-check-label" for="d3">
+                            D3
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Geoplotlib" id="geoplotlib">
+                        <label class="form-check-label" for="geoplotlib">
+                            Geoplotlib
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="ggplot2" id="ggplot">
+                        <label class="form-check-label" for="ggplot">
+                            ggplot2
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Lattice" id="lattice">
+                        <label class="form-check-label" for="lattice">
+                            Lattice
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Leaflet" id="leaflet">
+                        <label class="form-check-label" for="leaflet">
+                            Leaflet
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Matplotlib" id="matplotlib">
+                        <label class="form-check-label" for="matplotlib">
+                            Matplotlib
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Plotly" id="altair">
+                        <label class="form-check-label" for="altair">
+                            Plotly
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Seaborn" id="seaborn">
+                        <label class="form-check-label" for="seaborn">
+                            Seaborn
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Shiny" id="shiny">
+                        <label class="form-check-label" for="shiny">
+                            Shiny
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="Other" id="visual_libs_other">
+                        <label class="form-check-label" for="visual_libs_other">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="visual_libs" type="checkbox"
+                               value="None" id="visual_libs_any">
+                        <label class="form-check-label" for="visual_libs_any">
+                            None
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="data_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>Which types of data do you currently interact with most often at work or school (select all that
+                        apply)?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-6">
+                    <p>I interact most often with</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Audio Data" id="audio">
+                        <label class="form-check-label" for="audio">
+                            Audio Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Categorical Data" id="categorical">
+                        <label class="form-check-label" for="categorical">
+                            Categorical Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Genetic Data" id="genetic">
+                        <label class="form-check-label" for="genetic">
+                            Genetic Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Geospatial Data" id="geospatial">
+                        <label class="form-check-label" for="geospatial">
+                            Geospatial Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Image Data" id="image">
+                        <label class="form-check-label" for="image">
+                            Image Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Numerical Data" id="num">
+                        <label class="form-check-label" for="num">
+                            Numerical Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Sensor Data" id="sensor">
+                        <label class="form-check-label" for="sensor">
+                            Sensor Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Tabular Data" id="tabular">
+                        <label class="form-check-label" for="tabular">
+                            Tabular Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Text Data" id="text">
+                        <label class="form-check-label" for="text">
+                            Text Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Time Series Data" id="time_series">
+                        <label class="form-check-label" for="time_series">
+                            Time Series Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Video Data" id="video">
+                        <label class="form-check-label" for="video">
+                            Video Data
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="data" type="checkbox"
+                               value="Other Data" id="data_other">
+                        <label class="form-check-label" for="data_other">
+                            Other Data
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="online_platforms_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>On which online platform have you spent the most amount of time?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I spent most time with</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Coursera" id="coursera">
+                        <label class="form-check-label" for="coursera">
+                            Coursera
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Data Camp" id="data_camp">
+                        <label class="form-check-label" for="data_camp">
+                            Data Camp
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="developers.google.com" id="dev_google">
+                        <label class="form-check-label" for="dev_google">
+                            developers.google.com
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="edX" id="edx">
+                        <label class="form-check-label" for="edx">
+                            edX
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="FastAI" id="fastai">
+                        <label class="form-check-label" for="fastai">
+                            FastAI
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Kaggle Learn" id="kaggle">
+                        <label class="form-check-label" for="kaggle">
+                            Kaggle Learn
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Online University Courses" id="online_uni">
+                        <label class="form-check-label" for="online_uni">
+                            Online University Courses
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Udacity" id="udacity">
+                        <label class="form-check-label" for="udacity">
+                            Udacity
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Udemy" id="udemy">
+                        <label class="form-check-label" for="udemy">
+                            Udemy
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="online_platforms" type="checkbox"
+                               value="Other" id="online_platforms_other">
+                        <label class="form-check-label" for="online_platforms_other">
+                            Other
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="media_sources_container" class="d-none container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>Who/what are your favorite media sources that report on data science to pics (select all that apply)?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>My favorites are</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="ArXiv &amp; Preprints" id="arxiv">
+                        <label class="form-check-label" for="arxiv">
+                            ArXiv &amp; Preprints
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Cloud AI Adventures (YouTube)" id="youtube">
+                        <label class="form-check-label" for="youtube">
+                            Cloud AI Adventures (YouTube)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="DataTau News Aggregator" id="data_tau">
+                        <label class="form-check-label" for="data_tau">
+                            DataTau News Aggregator
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="FastAI forums" id="fastai_forums">
+                        <label class="form-check-label" for="fastai_forums">
+                            FastAI forums
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="FastML Blog" id="fastml_blog">
+                        <label class="form-check-label" for="fastml_blog">
+                            FastML Blog
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="FiveThirtyEight.com" id="five_thirty_eight">
+                        <label class="form-check-label" for="five_thirty_eight">
+                            FiveThirtyEight.com
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Hacker News" id="hacker_news">
+                        <label class="form-check-label" for="hacker_news">
+                            Hacker News
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Journal Publications" id="journal">
+                        <label class="form-check-label" for="journal">
+                            Journal Publications
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Kaggle Forums" id="kaggle_forums">
+                        <label class="form-check-label" for="kaggle_forums">
+                            Kaggle Forums
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="KDnuggets Blog" id="kd_nuggets">
+                        <label class="form-check-label" for="kd_nuggets">
+                            KDnuggets Blog
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Linear Digressions Podcast" id="linear_digression">
+                        <label class="form-check-label" for="linear_digression">
+                            Linear Digressions Podcast
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Medium Blog Posts" id="medium">
+                        <label class="form-check-label" for="medium">
+                            Medium Blog Posts
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="O’Reilly Data Newsletter" id="oreilly">
+                        <label class="form-check-label" for="oreilly">
+                            O’Reilly Data Newsletter
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Partially Derivative Podcast" id="partially_derivative">
+                        <label class="form-check-label" for="partially_derivative">
+                            Partially Derivative Podcast
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="r/machinelearning" id="r_ml">
+                        <label class="form-check-label" for="r_ml">
+                            r/machinelearning
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Siraj Raval YouTube Channel" id="siraj_raval">
+                        <label class="form-check-label" for="siraj_raval">
+                            Siraj Raval YouTube Channel
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="The Data Skeptic Podcast" id="data_sceptic">
+                        <label class="form-check-label" for="data_sceptic">
+                            The Data Skeptic Podcast
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Twitter" id="twitter">
+                        <label class="form-check-label" for="twitter">
+                            Twitter
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="Other" id="media_sources_other">
+                        <label class="form-check-label" for="media_sources_other">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="media_sources" type="checkbox"
+                               value="None/I do not know" id="media_sources_any">
+                        <label class="form-check-label" for="media_sources_any">
+                            None/I do not know
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="d-flex flex-row mt-5 justify-content-center">
+                <a id="next_section" href="#" class="btn btn-primary btn-lg btn-md mb-5">Next</a>
+                <button type="submit" class="btn btn-primary btn-lg d-none mb-5">Submit</button>
+            </div>
+        </section>
     </form>
 {% endblock %}

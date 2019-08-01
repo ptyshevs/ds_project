@@ -17,12 +17,25 @@
 
 .question-box {
     position: relative;
+    left: 60px;
     margin-bottom: 30px;
     padding: 15px 30px;
     border: 1px solid transparent;
     border-radius: 20px 20px 20px 0;
     background-color: rgba(117, 49, 147, .2);
     color: #000;
+    width: calc(100% - 60px);
+}
+.question-box:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -66px;
+    width: 128px;
+    height: 128px;
+    background-image: url('images/ImageDataMate.png');
+    background-position: -76px 55px;
+    background-repeat: no-repeat;
 }
 
 .answer-box {
@@ -44,7 +57,7 @@
     display: block;
 }
 #rec_form .form-check {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .navbar{
