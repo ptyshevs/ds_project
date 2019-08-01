@@ -10,12 +10,35 @@ const experienceContainer = $('#experience');
 const experienceInput = $('input[type=radio][name=experience]');
 const activitiesContainer = $('#activities');
 
+const nextSectionButton = $('#next_section');
+const primaryToolContainer = $('#primary_tool_container');
+const cloudServicesContainer = $('#cloud_services_container');
+const regularLanguagesContainer = $('#regular_languages_container');
+const visualLibsContainer = $('#visual_libs_container');
+const dataContainer = $('#data_container');
+const onlinePlatformsContainer = $('#online_platforms_container');
+const mediaSourcesContainer = $('#media_sources_container');
+
+
 function assign(trigger, toHide, toShow) {
     trigger.change(function () {
         toHide.hide();
         toShow.removeAttr('hidden');
     });
 }
+
+nextSectionButton.click(function () {
+    if ($('#media_sources_container').hasClass('active')) {
+        $(this).hide();
+        $('button[type=submit]').removeClass('d-none')
+    } else {
+        if ($('.active').find('input[type=checkbox]').is(':checked')) {
+            $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active')
+        } else {
+            alert('Please, fill at least one option')
+        }
+    }
+});
 
 assign(ageInput, ageContainer, countryContainer);
 assign(countryInput, countryContainer, industryContainer);

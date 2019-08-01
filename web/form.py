@@ -20,6 +20,9 @@ def form():
         return render_template('prediction.html', salary=salary, salary_distribution=dist)
 
 
-@bp.route('/recommendation-form')
-def recommendation0_form():
-    return render_template('rec_form.html')
+@bp.route('/recommendation', methods=('GET', 'POST'))
+def recommendation_form():
+    if request.method == 'GET':
+        return render_template('rec_form.html')
+    if request.method == 'POST'():
+        return  render_template('recommendation.html')
