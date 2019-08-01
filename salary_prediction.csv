@@ -29,7 +29,7 @@
 38,22-24,Canada,Software Engineer,Computers/Technology,0-1,"30-40,000",0,0,0,1,0,0
 39,30-34,Australia,Data Scientist,Academics/Education,2-3,"80-90,000",1,1,1,1,1,0
 40,22-24,United States of America,Other,Other,3-4,"10-20,000",0,0,0,0,0,1
-41,40-44,United States of America,Software Engineer,Online Service/Internet-based Services,10-15,"400-500,000",0,0,0,0,0,1
+41,40-44,United States of America,Software Engineer,Online Service/Internet-based Services,10-15,">250,000",0,0,0,0,0,1
 42,25-29,Japan,Research Scientist,Computers/Technology,1-2,"40-50,000",0,0,0,1,1,0
 43,22-24,Other,Data Scientist,Computers/Technology,0-1,"0-10,000",0,1,0,0,0,0
 46,18-21,India,Student,Other,15+,"0-10,000",1,1,0,1,1,0
@@ -907,7 +907,7 @@
 1369,30-34,Other,Student,Other,4-5,"10-20,000",0,0,0,1,1,0
 1370,25-29,Other,Data Scientist,Accounting/Finance,0-1,"90-100,000",0,0,0,1,0,0
 1371,25-29,Other,Data Scientist,Accounting/Finance,2-3,"70-80,000",1,1,1,1,0,0
-1372,25-29,India,Data Scientist,Other,3-4,"300-400,000",1,0,1,0,0,0
+1372,25-29,India,Data Scientist,Other,3-4,">250,000",1,0,1,0,0,0
 1373,40-44,Other,Data Analyst,Other,5-10,"100-125,000",1,1,1,0,0,0
 1374,25-29,Brazil,Student,Academics/Education,0-1,"0-10,000",0,0,0,0,0,1
 1375,25-29,India,Data Engineer,Computers/Technology,5-10,"20-30,000",1,1,1,1,0,0
@@ -1039,7 +1039,7 @@
 1547,22-24,Other,Software Engineer,Computers/Technology,2-3,"10-20,000",0,0,0,0,0,1
 1549,30-34,Other,Consultant,Computers/Technology,0-1,"30-40,000",1,1,0,1,0,0
 1550,25-29,Other,Data Analyst,Other,1-2,"10-20,000",1,0,0,0,0,0
-1551,45-49,Japan,Software Engineer,Other,15+,"500,000+",0,0,1,1,0,0
+1551,45-49,Japan,Software Engineer,Other,15+,">250,000",0,0,1,1,0,0
 1555,35-39,Russia,Consultant,Accounting/Finance,5-10,"30-40,000",0,0,0,1,1,0
 1557,40-44,Australia,Data Engineer,Insurance/Risk Assessment,4-5,"100-125,000",1,0,1,0,0,0
 1558,25-29,India,Data Scientist,Online Service/Internet-based Services,1-2,"0-10,000",1,1,1,0,0,0
@@ -1052,7 +1052,7 @@
 1569,30-34,Russia,Software Engineer,Computers/Technology,5-10,"20-30,000",0,0,0,0,0,1
 1570,25-29,Russia,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,0,1,0,0
 1572,25-29,Other,Data Scientist,Other,1-2,"40-50,000",1,1,0,1,0,0
-1573,40-44,United Kingdom of Great Britain and Northern Ireland,Other,Other,10-15,"300-400,000",1,1,1,1,0,0
+1573,40-44,United Kingdom of Great Britain and Northern Ireland,Other,Other,10-15,">250,000",1,1,1,1,0,0
 1574,60+,France,Consultant,Other,2-3,"10-20,000",0,0,0,1,0,0
 1575,25-29,Brazil,Data Scientist,Other,1-2,"20-30,000",1,0,1,1,0,0
 1576,18-21,China,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
@@ -1090,7 +1090,7 @@
 1615,25-29,Mexico,Data Scientist,Computers/Technology,5-10,"50-60,000",0,0,1,1,0,0
 1618,22-24,Other,Student,Other,,"0-10,000",1,1,0,0,0,0
 1620,35-39,Brazil,Consultant,Other,5-10,"40-50,000",1,1,1,1,0,0
-1621,25-29,Other,Data Scientist,Accounting/Finance,1-2,"400-500,000",0,1,0,0,1,0
+1621,25-29,Other,Data Scientist,Accounting/Finance,1-2,">250,000",0,1,0,0,1,0
 1623,25-29,Italy,Consultant,Computers/Technology,3-4,"30-40,000",0,0,0,0,0,1
 1624,35-39,Other,Other,Insurance/Risk Assessment,5-10,"30-40,000",0,0,0,0,1,0
 1626,18-21,India,Student,Other,0-1,"0-10,000",1,1,0,0,1,0
@@ -1435,7 +1435,7 @@
 2080,25-29,United States of America,Other,Medical/Pharmaceutical,0-1,"80-90,000",0,0,0,0,0,1
 2082,22-24,Other,Data Analyst,Other,1-2,"30-40,000",1,0,1,0,0,0
 2083,25-29,Germany,Other,Computers/Technology,0-1,"40-50,000",0,1,1,1,1,0
-2086,50-54,Germany,Consultant,Accounting/Finance,10-15,"250-300,000",1,1,1,1,1,0
+2086,50-54,Germany,Consultant,Accounting/Finance,10-15,">250,000",1,1,1,1,1,0
 2087,22-24,United States of America,Software Engineer,Other,2-3,"70-80,000",1,1,0,0,0,0
 2088,22-24,India,Software Engineer,Other,0-1,"0-10,000",0,0,0,0,0,1
 2089,25-29,Other,Other,Academics/Education,2-3,"0-10,000",1,1,0,0,0,0
@@ -1534,7 +1534,7 @@
 2217,30-34,Mexico,Software Engineer,Other,4-5,"20-30,000",0,0,0,0,0,1
 2218,22-24,United States of America,Data Analyst,Online Service/Internet-based Services,0-1,"100-125,000",1,0,0,0,0,0
 2219,25-29,Canada,Other,Other,5-10,"10-20,000",0,0,0,1,1,0
-2220,30-34,United States of America,Software Engineer,Computers/Technology,5-10,"400-500,000",0,1,0,1,1,0
+2220,30-34,United States of America,Software Engineer,Computers/Technology,5-10,">250,000",0,1,0,1,1,0
 2222,35-39,United States of America,Other,Other,3-4,"125-150,000",1,0,0,1,0,0
 2223,30-34,Canada,Other,Academics/Education,2-3,"60-70,000",0,1,0,0,0,0
 2224,25-29,Canada,Data Scientist,Other,0-1,"60-70,000",1,1,1,0,0,0
@@ -1643,7 +1643,7 @@
 2357,22-24,Other,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
 2358,25-29,India,Other,Computers/Technology,5-10,"20-30,000",1,1,0,0,0,0
 2359,25-29,United States of America,Software Engineer,Other,3-4,"40-50,000",0,0,0,0,0,1
-2360,25-29,Russia,Other,Government/Public Service,5-10,"400-500,000",0,0,0,1,0,0
+2360,25-29,Russia,Other,Government/Public Service,5-10,">250,000",0,0,0,1,0,0
 2362,30-34,China,Data Analyst,Insurance/Risk Assessment,2-3,"30-40,000",1,1,0,0,0,0
 2363,25-29,Other,Consultant,Other,1-2,"0-10,000",1,0,0,0,0,0
 2364,22-24,United States of America,Business Analyst,Other,0-1,"0-10,000",1,1,1,1,0,0
@@ -1717,7 +1717,7 @@
 2464,18-21,United States of America,Student,Other,3-4,"0-10,000",1,0,0,0,0,0
 2465,45-49,Italy,Data Scientist,Government/Public Service,3-4,"20-30,000",0,0,1,0,1,0
 2467,30-34,Russia,Business Analyst,Other,2-3,"10-20,000",1,0,0,1,0,0
-2469,45-49,United States of America,Other,Computers/Technology,15+,"250-300,000",1,1,0,1,0,0
+2469,45-49,United States of America,Other,Computers/Technology,15+,">250,000",1,1,0,1,0,0
 2470,45-49,Japan,Other,Medical/Pharmaceutical,15+,"90-100,000",0,0,0,1,0,0
 2471,25-29,United States of America,Other,Other,0-1,"10-20,000",0,0,0,0,0,1
 2472,45-49,Italy,Data Scientist,Insurance/Risk Assessment,3-4,"100-125,000",1,1,0,1,0,0
@@ -1754,7 +1754,7 @@
 2513,30-34,United States of America,Research Scientist,Academics/Education,2-3,"30-40,000",0,0,0,0,1,0
 2514,22-24,Other,Student,Other,1-2,"0-10,000",1,1,0,0,0,0
 2515,22-24,India,Software Engineer,Other,0-1,"10-20,000",1,0,0,0,0,0
-2516,45-49,United States of America,Data Analyst,Accounting/Finance,5-10,"250-300,000",1,0,0,0,1,0
+2516,45-49,United States of America,Data Analyst,Accounting/Finance,5-10,">250,000",1,0,0,0,1,0
 2517,30-34,United States of America,Research Scientist,Computers/Technology,4-5,"125-150,000",1,1,0,1,1,0
 2518,25-29,Russia,Data Scientist,Insurance/Risk Assessment,0-1,"10-20,000",1,1,0,1,0,0
 2520,30-34,Brazil,Business Analyst,Academics/Education,3-4,"10-20,000",1,0,0,0,0,0
@@ -1941,7 +1941,7 @@
 2771,60+,United States of America,Other,Online Service/Internet-based Services,15+,"150-200,000",1,0,1,1,1,0
 2773,30-34,Other,Data Analyst,Computers/Technology,5-10,"20-30,000",1,0,1,0,0,0
 2774,35-39,Brazil,Other,Other,5-10,"10-20,000",1,1,1,1,1,0
-2775,55-59,United States of America,Data Scientist,Computers/Technology,15+,"250-300,000",1,0,1,1,1,0
+2775,55-59,United States of America,Data Scientist,Computers/Technology,15+,">250,000",1,0,1,1,1,0
 2777,25-29,Other,Other,Other,1-2,"10-20,000",0,0,0,0,1,0
 2778,35-39,Other,Other,Accounting/Finance,10-15,"10-20,000",1,1,0,1,1,0
 2779,22-24,India,Data Scientist,Insurance/Risk Assessment,0-1,"0-10,000",1,0,0,1,0,0
@@ -2057,7 +2057,7 @@
 2920,45-49,India,Other,Academics/Education,15+,"20-30,000",0,0,0,0,1,0
 2921,22-24,Brazil,Other,Government/Public Service,0-1,"0-10,000",0,0,0,0,0,1
 2923,18-21,Russia,Data Scientist,Other,1-2,"10-20,000",0,1,0,1,0,0
-2924,30-34,United States of America,Software Engineer,Computers/Technology,1-2,"300-400,000",0,1,0,1,1,0
+2924,30-34,United States of America,Software Engineer,Computers/Technology,1-2,">250,000",0,1,0,1,1,0
 2925,25-29,United States of America,Software Engineer,Other,0-1,"125-150,000",0,0,0,0,0,1
 2926,25-29,Italy,Data Scientist,Computers/Technology,2-3,"50-60,000",1,0,1,1,1,0
 2927,30-34,United States of America,Research Scientist,Online Service/Internet-based Services,3-4,"150-200,000",0,1,1,1,0,0
@@ -2107,7 +2107,7 @@
 2987,18-21,Other,Software Engineer,Other,1-2,"10-20,000",1,0,0,1,1,0
 2988,30-34,Germany,Data Scientist,Other,5-10,"100-125,000",1,0,0,1,1,0
 2989,25-29,Other,Software Engineer,Computers/Technology,3-4,"10-20,000",0,0,0,0,1,0
-2990,25-29,Other,Data Engineer,Other,3-4,"300-400,000",0,1,1,0,1,0
+2990,25-29,Other,Data Engineer,Other,3-4,">250,000",0,1,1,0,1,0
 2991,25-29,United States of America,Data Scientist,Academics/Education,1-2,"40-50,000",1,0,1,1,0,0
 2992,25-29,United States of America,Other,Computers/Technology,3-4,"150-200,000",1,1,0,1,1,0
 2993,30-34,Russia,Data Scientist,Other,0-1,"30-40,000",1,1,1,1,1,0
@@ -2232,7 +2232,7 @@
 3155,25-29,Other,Other,Computers/Technology,2-3,"10-20,000",0,0,0,0,0,1
 3156,30-34,United States of America,Data Scientist,Computers/Technology,4-5,"200-250,000",1,1,1,1,0,0
 3157,22-24,United States of America,Data Scientist,Computers/Technology,0-1,"125-150,000",1,0,0,0,0,0
-3158,30-34,United States of America,Other,Insurance/Risk Assessment,5-10,"500,000+",0,1,0,0,0,0
+3158,30-34,United States of America,Other,Insurance/Risk Assessment,5-10,">250,000",0,1,0,0,0,0
 3160,55-59,Brazil,Data Analyst,Academics/Education,15+,"100-125,000",1,0,0,0,0,0
 3162,30-34,Other,Research Scientist,Academics/Education,5-10,"20-30,000",0,0,0,1,0,0
 3163,25-29,United States of America,Consultant,Medical/Pharmaceutical,0-1,"80-90,000",1,0,1,0,0,0
@@ -2252,7 +2252,7 @@
 3183,50-54,Other,Data Scientist,Other,5-10,"60-70,000",1,1,1,1,0,0
 3184,40-44,United States of America,Data Scientist,Computers/Technology,2-3,"200-250,000",1,1,1,0,0,0
 3186,25-29,Mexico,Other,Computers/Technology,5-10,"0-10,000",0,0,0,0,0,1
-3187,30-34,United States of America,Data Scientist,Online Service/Internet-based Services,0-1,"250-300,000",0,1,0,0,1,0
+3187,30-34,United States of America,Data Scientist,Online Service/Internet-based Services,0-1,">250,000",0,1,0,0,1,0
 3188,25-29,United States of America,Other,Other,0-1,"90-100,000",1,0,0,0,0,0
 3189,25-29,Spain,Data Scientist,Computers/Technology,1-2,"40-50,000",1,0,1,1,0,0
 3190,18-21,United States of America,Other,Other,0-1,"30-40,000",1,0,1,0,1,0
@@ -2331,7 +2331,7 @@
 3293,55-59,United States of America,Consultant,Other,5-10,"30-40,000",1,0,0,1,0,0
 3295,30-34,Russia,Student,Other,1-2,"0-10,000",0,0,0,1,1,0
 3297,30-34,United States of America,Data Analyst,Other,5-10,"90-100,000",1,0,1,1,1,0
-3299,25-29,United States of America,Other,Computers/Technology,1-2,"250-300,000",1,1,1,1,0,0
+3299,25-29,United States of America,Other,Computers/Technology,1-2,">250,000",1,1,1,1,0,0
 3300,30-34,United States of America,Other,Other,5-10,"90-100,000",1,0,1,0,0,0
 3301,30-34,United States of America,Consultant,Other,5-10,"125-150,000",1,0,0,1,0,0
 3302,45-49,Canada,Other,Online Service/Internet-based Services,3-4,"60-70,000",0,0,0,0,0,1
@@ -2369,7 +2369,7 @@
 3341,25-29,Canada,Data Scientist,Medical/Pharmaceutical,0-1,"30-40,000",1,1,1,0,0,0
 3342,60+,United States of America,Other,Other,15+,"90-100,000",1,1,0,1,1,0
 3343,30-34,United States of America,Data Analyst,Academics/Education,2-3,"40-50,000",0,0,0,0,0,1
-3344,45-49,United States of America,Data Scientist,Computers/Technology,10-15,"250-300,000",1,0,0,1,1,0
+3344,45-49,United States of America,Data Scientist,Computers/Technology,10-15,">250,000",1,0,0,1,1,0
 3348,30-34,Spain,Research Scientist,Other,2-3,"40-50,000",0,0,0,1,1,0
 3349,35-39,United States of America,Other,Computers/Technology,15+,"200-250,000",1,1,1,1,0,0
 3353,25-29,Other,Data Analyst,Other,3-4,"0-10,000",1,0,0,0,0,0
@@ -2378,10 +2378,10 @@
 3358,18-21,United States of America,Student,Academics/Education,,"0-10,000",0,0,0,0,0,1
 3359,22-24,Other,Software Engineer,Online Service/Internet-based Services,1-2,"0-10,000",1,0,0,0,0,0
 3360,35-39,Other,Data Scientist,Government/Public Service,2-3,"10-20,000",0,0,1,0,0,0
-3361,35-39,United States of America,Software Engineer,Computers/Technology,15+,"250-300,000",0,1,1,1,0,0
+3361,35-39,United States of America,Software Engineer,Computers/Technology,15+,">250,000",0,1,1,1,0,0
 3362,45-49,United States of America,Data Analyst,Insurance/Risk Assessment,5-10,"125-150,000",1,0,0,0,0,0
 3363,30-34,United States of America,Research Scientist,Other,1-2,"150-200,000",1,0,0,1,1,0
-3364,50-54,United States of America,Other,Accounting/Finance,1-2,"300-400,000",1,1,1,1,0,0
+3364,50-54,United States of America,Other,Accounting/Finance,1-2,">250,000",1,1,1,1,0,0
 3366,25-29,Mexico,Data Scientist,Accounting/Finance,4-5,"40-50,000",1,1,0,1,1,0
 3367,30-34,Other,Data Scientist,Accounting/Finance,1-2,"30-40,000",1,1,1,1,0,0
 3369,30-34,Russia,Software Engineer,Other,5-10,"40-50,000",0,0,0,0,0,1
@@ -2402,7 +2402,7 @@
 3390,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,1,0
 3391,25-29,Other,Data Analyst,Government/Public Service,2-3,"0-10,000",0,0,0,0,0,1
 3394,25-29,Other,Research Scientist,Computers/Technology,5-10,"30-40,000",0,1,1,1,1,0
-3395,55-59,Canada,Other,Accounting/Finance,4-5,"400-500,000",1,1,0,1,0,0
+3395,55-59,Canada,Other,Accounting/Finance,4-5,">250,000",1,1,0,1,0,0
 3396,45-49,Other,Data Analyst,Other,2-3,"90-100,000",1,0,1,0,0,0
 3398,25-29,Other,Data Scientist,Other,1-2,"30-40,000",1,1,1,1,0,0
 3399,45-49,Other,Consultant,Computers/Technology,5-10,"30-40,000",0,0,0,0,0,1
@@ -2475,7 +2475,7 @@
 3480,30-34,Canada,Data Analyst,Academics/Education,0-1,"60-70,000",1,1,0,1,0,0
 3481,35-39,Australia,Software Engineer,Computers/Technology,3-4,"90-100,000",1,1,0,1,0,0
 3482,25-29,France,Data Analyst,Accounting/Finance,0-1,"30-40,000",1,0,0,0,0,0
-3483,45-49,United States of America,Other,Accounting/Finance,15+,"500,000+",1,0,0,0,0,0
+3483,45-49,United States of America,Other,Accounting/Finance,15+,">250,000",1,0,0,0,0,0
 3484,35-39,Other,Data Scientist,Government/Public Service,5-10,"0-10,000",1,0,0,1,0,0
 3485,30-34,Japan,Software Engineer,Computers/Technology,5-10,"50-60,000",0,0,0,0,0,1
 3490,45-49,Other,Other,Online Service/Internet-based Services,15+,"150-200,000",0,0,0,0,0,1
@@ -2592,7 +2592,7 @@
 3640,30-34,Other,Research Scientist,Other,4-5,"40-50,000",1,0,0,0,0,0
 3643,22-24,Other,Data Scientist,Other,0-1,"80-90,000",1,1,0,1,0,0
 3644,30-34,Brazil,Business Analyst,Other,15+,"40-50,000",1,0,1,0,0,0
-3645,30-34,United States of America,Other,Other,5-10,"250-300,000",1,1,1,0,1,0
+3645,30-34,United States of America,Other,Other,5-10,">250,000",1,1,1,0,1,0
 3646,25-29,United States of America,Student,Other,4-5,"20-30,000",1,0,0,0,0,0
 3648,25-29,Other,Data Scientist,Computers/Technology,1-2,"10-20,000",1,1,0,1,1,0
 3649,22-24,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Computers/Technology,0-1,"10-20,000",0,1,0,1,0,0
@@ -2634,7 +2634,7 @@
 3695,30-34,Other,Data Scientist,Computers/Technology,2-3,"0-10,000",0,1,1,1,0,0
 3698,25-29,United States of America,Data Scientist,Accounting/Finance,2-3,"80-90,000",1,1,1,1,0,0
 3701,50-54,India,Consultant,Insurance/Risk Assessment,15+,"40-50,000",1,0,0,0,0,0
-3703,60+,United States of America,Other,Other,5-10,"250-300,000",1,0,0,0,0,0
+3703,60+,United States of America,Other,Other,5-10,">250,000",1,0,0,0,0,0
 3705,50-54,Other,Data Analyst,Insurance/Risk Assessment,15+,"90-100,000",1,0,1,0,0,0
 3706,25-29,United States of America,Student,Other,3-4,"20-30,000",1,0,0,0,0,0
 3707,18-21,Other,Student,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
@@ -2717,7 +2717,7 @@
 3801,50-54,France,Data Scientist,Medical/Pharmaceutical,15+,"70-80,000",1,1,1,1,1,0
 3802,22-24,Other,Student,Other,0-1,"0-10,000",0,1,0,1,0,0
 3803,40-44,United States of America,Data Scientist,Computers/Technology,5-10,"150-200,000",1,1,1,1,1,0
-3804,40-44,United States of America,Other,Computers/Technology,5-10,"400-500,000",0,1,0,0,1,0
+3804,40-44,United States of America,Other,Computers/Technology,5-10,">250,000",0,1,0,0,1,0
 3805,25-29,India,Data Scientist,Online Service/Internet-based Services,0-1,"10-20,000",1,1,1,1,1,0
 3807,25-29,United States of America,Data Analyst,Medical/Pharmaceutical,1-2,"50-60,000",1,0,0,0,0,0
 3808,30-34,Brazil,Data Scientist,Other,4-5,"40-50,000",0,1,0,1,0,0
@@ -2758,15 +2758,15 @@
 3858,30-34,United States of America,Data Scientist,Academics/Education,5-10,"30-40,000",1,0,1,0,0,0
 3860,22-24,United States of America,Consultant,Accounting/Finance,0-1,"60-70,000",1,0,0,0,0,0
 3861,30-34,Canada,Software Engineer,Computers/Technology,10-15,"90-100,000",0,0,1,0,0,0
-3862,40-44,United States of America,Other,Other,10-15,"250-300,000",1,0,0,0,1,0
-3864,50-54,Australia,Research Scientist,Accounting/Finance,0-1,"250-300,000",1,1,1,1,1,1
+3862,40-44,United States of America,Other,Other,10-15,">250,000",1,0,0,0,1,0
+3864,50-54,Australia,Research Scientist,Accounting/Finance,0-1,">250,000",1,1,1,1,1,1
 3865,30-34,Other,Consultant,Medical/Pharmaceutical,0-1,"100-125,000",1,0,0,0,0,0
 3866,25-29,United States of America,Other,Computers/Technology,0-1,"80-90,000",1,0,0,0,0,0
 3867,30-34,Japan,Data Scientist,Other,1-2,"30-40,000",0,1,0,1,1,0
 3868,35-39,Other,Student,Academics/Education,4-5,"0-10,000",0,0,0,0,1,0
 3870,35-39,United States of America,Research Scientist,Academics/Education,4-5,"50-60,000",0,0,1,0,0,0
 3871,25-29,Italy,Student,Other,4-5,"0-10,000",1,0,0,0,0,0
-3872,30-34,Other,Research Scientist,Computers/Technology,4-5,"250-300,000",0,1,0,1,1,0
+3872,30-34,Other,Research Scientist,Computers/Technology,4-5,">250,000",0,1,0,1,1,0
 3873,35-39,Other,Other,Computers/Technology,0-1,"70-80,000",0,1,0,1,0,0
 3874,22-24,Other,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
 3876,25-29,Russia,Software Engineer,Computers/Technology,4-5,"20-30,000",0,0,0,0,0,1
@@ -2809,7 +2809,7 @@
 3922,30-34,Germany,Other,Other,0-1,"0-10,000",0,0,0,0,0,1
 3924,40-44,Australia,Data Scientist,Other,3-4,"150-200,000",1,1,1,0,0,0
 3925,30-34,United States of America,Software Engineer,Computers/Technology,3-4,"125-150,000",1,1,1,1,0,0
-3926,35-39,United States of America,Data Scientist,Computers/Technology,5-10,"250-300,000",1,1,1,1,0,0
+3926,35-39,United States of America,Data Scientist,Computers/Technology,5-10,">250,000",1,1,1,1,0,0
 3929,30-34,United States of America,Data Scientist,Insurance/Risk Assessment,5-10,"200-250,000",0,0,0,0,1,0
 3930,25-29,United States of America,Research Scientist,Academics/Education,0-1,"20-30,000",0,0,1,1,1,0
 3931,18-21,Canada,Student,Other,2-3,"10-20,000",0,0,0,0,0,1
@@ -2822,7 +2822,7 @@
 3944,18-21,United States of America,Student,Other,15+,"0-10,000",1,0,1,0,0,0
 3945,30-34,Canada,Other,Medical/Pharmaceutical,0-1,"80-90,000",0,0,0,0,1,0
 3946,35-39,United States of America,Consultant,Computers/Technology,5-10,"80-90,000",1,0,0,0,0,0
-3947,30-34,United States of America,Other,Insurance/Risk Assessment,5-10,"250-300,000",1,1,1,1,0,0
+3947,30-34,United States of America,Other,Insurance/Risk Assessment,5-10,">250,000",1,1,1,1,0,0
 3948,40-44,United States of America,Data Scientist,Medical/Pharmaceutical,2-3,"80-90,000",1,1,0,1,1,0
 3949,30-34,Australia,Software Engineer,Computers/Technology,5-10,"90-100,000",0,0,0,0,0,1
 3950,22-24,United States of America,Software Engineer,Insurance/Risk Assessment,0-1,"70-80,000",0,0,0,0,0,1
@@ -2884,7 +2884,7 @@
 4029,25-29,United States of America,Data Scientist,Other,2-3,"70-80,000",1,1,1,1,0,0
 4030,30-34,Brazil,Data Analyst,Other,4-5,"20-30,000",0,0,1,0,0,0
 4031,25-29,United States of America,Software Engineer,Academics/Education,2-3,"50-60,000",0,0,0,0,0,1
-4032,50-54,United States of America,Other,Academics/Education,15+,"300-400,000",0,0,0,0,1,0
+4032,50-54,United States of America,Other,Academics/Education,15+,">250,000",0,0,0,0,1,0
 4033,60+,Japan,Data Engineer,Computers/Technology,10-15,"150-200,000",1,0,0,1,0,0
 4034,35-39,Germany,Other,Other,5-10,"70-80,000",0,0,0,0,0,1
 4035,30-34,United States of America,Data Scientist,Other,2-3,"125-150,000",1,1,1,1,0,0
@@ -2953,7 +2953,7 @@
 4116,45-49,United States of America,Other,Government/Public Service,0-1,"60-70,000",1,0,0,0,0,0
 4117,25-29,United States of America,Other,Computers/Technology,2-3,"80-90,000",1,1,0,1,0,0
 4119,25-29,Other,Software Engineer,Other,5-10,"10-20,000",0,0,0,0,0,1
-4120,50-54,United States of America,Business Analyst,Accounting/Finance,5-10,"500,000+",1,0,0,0,0,0
+4120,50-54,United States of America,Business Analyst,Accounting/Finance,5-10,">250,000",1,0,0,0,0,0
 4121,25-29,Other,Consultant,Accounting/Finance,1-2,"80-90,000",1,1,1,1,0,0
 4123,22-24,United States of America,Data Scientist,Other,1-2,"100-125,000",0,1,1,1,0,0
 4124,25-29,Australia,Data Analyst,Medical/Pharmaceutical,3-4,"70-80,000",1,0,0,1,0,0
@@ -3051,7 +3051,7 @@
 4251,25-29,Germany,Software Engineer,Medical/Pharmaceutical,3-4,"40-50,000",1,0,1,0,0,0
 4254,40-44,Canada,Other,Accounting/Finance,4-5,"60-70,000",1,0,0,0,0,0
 4255,35-39,United States of America,Research Scientist,Medical/Pharmaceutical,10-15,"100-125,000",1,0,0,0,0,0
-4256,50-54,United States of America,Other,Computers/Technology,5-10,"250-300,000",1,1,1,1,1,0
+4256,50-54,United States of America,Other,Computers/Technology,5-10,">250,000",1,1,1,1,1,0
 4257,25-29,India,Data Scientist,Other,1-2,"80-90,000",1,1,0,0,1,0
 4258,22-24,United States of America,Data Scientist,Medical/Pharmaceutical,0-1,"90-100,000",1,1,1,1,1,0
 4259,30-34,Other,Data Scientist,Other,0-1,"90-100,000",1,1,0,1,1,0
@@ -3112,7 +3112,7 @@
 4320,50-54,Other,Consultant,Other,,"0-10,000",0,0,1,1,0,0
 4321,30-34,United States of America,Business Analyst,Medical/Pharmaceutical,10-15,"90-100,000",1,0,0,1,0,0
 4322,45-49,Australia,Other,Other,10-15,"125-150,000",1,1,0,0,0,0
-4323,45-49,United States of America,Other,Computers/Technology,10-15,"250-300,000",0,0,1,0,0,0
+4323,45-49,United States of America,Other,Computers/Technology,10-15,">250,000",0,0,1,0,0,0
 4325,55-59,Other,Software Engineer,Other,15+,"90-100,000",0,0,0,0,0,1
 4326,40-44,United States of America,Other,Computers/Technology,15+,"200-250,000",1,1,1,1,1,0
 4327,55-59,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Other,0-1,"150-200,000",0,0,0,1,0,0
@@ -3188,7 +3188,7 @@
 4421,30-34,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Online Service/Internet-based Services,0-1,"40-50,000",1,1,0,1,1,0
 4422,22-24,Other,Software Engineer,Computers/Technology,0-1,"60-70,000",1,1,1,1,1,0
 4423,30-34,Other,Data Scientist,Accounting/Finance,2-3,"60-70,000",1,1,1,0,0,0
-4424,30-34,United States of America,Consultant,Medical/Pharmaceutical,10-15,"400-500,000",1,1,1,1,0,0
+4424,30-34,United States of America,Consultant,Medical/Pharmaceutical,10-15,">250,000",1,1,1,1,0,0
 4425,60+,United States of America,Research Scientist,Computers/Technology,,"100-125,000",0,1,0,1,1,0
 4426,22-24,United States of America,Student,Other,1-2,"0-10,000",1,1,1,0,0,0
 4427,25-29,United States of America,Data Scientist,Computers/Technology,3-4,"100-125,000",1,1,1,0,0,0
@@ -3265,7 +3265,7 @@
 4527,25-29,United States of America,Data Analyst,Other,0-1,"60-70,000",1,0,1,0,0,0
 4528,35-39,Australia,Software Engineer,Other,5-10,"100-125,000",1,0,0,0,0,0
 4529,22-24,United States of America,Student,Academics/Education,4-5,"0-10,000",0,0,0,1,1,0
-4530,40-44,United States of America,Consultant,Insurance/Risk Assessment,15+,"300-400,000",1,1,1,1,1,0
+4530,40-44,United States of America,Consultant,Insurance/Risk Assessment,15+,">250,000",1,1,1,1,1,0
 4532,50-54,United States of America,Consultant,Computers/Technology,2-3,"150-200,000",1,0,1,1,1,0
 4533,35-39,Other,Software Engineer,Computers/Technology,5-10,"80-90,000",0,1,0,0,0,0
 4534,18-21,Canada,Student,Computers/Technology,1-2,"20-30,000",1,1,1,1,0,0
@@ -3355,7 +3355,7 @@
 4639,30-34,Other,Data Scientist,Medical/Pharmaceutical,0-1,"40-50,000",1,0,0,1,0,0
 4640,35-39,France,Data Scientist,Computers/Technology,1-2,"50-60,000",1,0,1,1,0,0
 4642,25-29,United States of America,Data Analyst,Medical/Pharmaceutical,2-3,"70-80,000",1,0,1,0,0,0
-4643,60+,United States of America,Research Scientist,Medical/Pharmaceutical,,"300-400,000",1,1,1,1,1,0
+4643,60+,United States of America,Research Scientist,Medical/Pharmaceutical,,">250,000",1,1,1,1,1,0
 4644,30-34,Other,Business Analyst,Other,3-4,"0-10,000",0,0,0,1,0,0
 4645,25-29,Germany,Consultant,Computers/Technology,0-1,"60-70,000",1,0,0,0,0,0
 4646,22-24,United States of America,Software Engineer,Accounting/Finance,2-3,"100-125,000",0,0,1,0,0,0
@@ -3364,7 +3364,7 @@
 4650,22-24,Mexico,Student,Academics/Education,1-2,"0-10,000",0,0,0,0,0,1
 4651,35-39,United States of America,Other,Other,0-1,"70-80,000",0,0,0,0,0,1
 4652,25-29,Other,Software Engineer,Computers/Technology,2-3,"10-20,000",0,0,0,1,1,0
-4653,40-44,Other,Other,Online Service/Internet-based Services,10-15,"300-400,000",1,1,1,1,0,0
+4653,40-44,Other,Other,Online Service/Internet-based Services,10-15,">250,000",1,1,1,1,0,0
 4654,30-34,United States of America,Consultant,Other,2-3,"125-150,000",1,1,0,1,0,0
 4655,40-44,Spain,Other,Academics/Education,10-15,"40-50,000",0,1,1,1,1,0
 4656,18-21,Other,Student,Other,1-2,"0-10,000",1,0,1,0,0,0
@@ -3458,7 +3458,7 @@
 4772,22-24,United States of America,Data Scientist,Other,0-1,"60-70,000",1,1,0,1,0,0
 4773,35-39,United States of America,Other,Computers/Technology,0-1,"150-200,000",0,0,0,0,0,1
 4774,40-44,United States of America,Business Analyst,Academics/Education,10-15,"200-250,000",1,0,1,1,0,0
-4775,35-39,United States of America,Data Scientist,Computers/Technology,5-10,"300-400,000",1,1,0,1,0,0
+4775,35-39,United States of America,Data Scientist,Computers/Technology,5-10,">250,000",1,1,0,1,0,0
 4777,25-29,Canada,Data Scientist,Accounting/Finance,0-1,"50-60,000",1,0,0,0,0,0
 4778,25-29,Japan,Consultant,Other,4-5,"40-50,000",0,1,0,0,0,0
 4780,30-34,Australia,Data Scientist,Computers/Technology,10-15,"100-125,000",1,1,1,1,1,0
@@ -3475,7 +3475,7 @@
 4792,30-34,United States of America,Research Scientist,Academics/Education,4-5,"60-70,000",0,1,0,1,0,0
 4794,40-44,Japan,Data Analyst,Other,5-10,"70-80,000",1,1,1,1,1,0
 4795,50-54,United States of America,Other,Insurance/Risk Assessment,10-15,"80-90,000",1,1,0,1,0,0
-4797,35-39,United States of America,Data Scientist,Other,0-1,"300-400,000",1,1,0,1,1,0
+4797,35-39,United States of America,Data Scientist,Other,0-1,">250,000",1,1,0,1,1,0
 4800,25-29,Other,Other,Academics/Education,2-3,"0-10,000",0,0,0,0,0,1
 4801,45-49,Brazil,Data Scientist,Computers/Technology,,"60-70,000",0,0,0,1,1,0
 4803,25-29,United States of America,Software Engineer,Other,1-2,"70-80,000",1,0,0,0,0,0
@@ -3489,7 +3489,7 @@
 4812,18-21,Brazil,Student,Other,4-5,"0-10,000",0,0,0,1,1,0
 4813,22-24,Other,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,1,0,0,0
 4814,25-29,Other,Software Engineer,Online Service/Internet-based Services,1-2,"0-10,000",0,0,0,0,0,1
-4815,55-59,United States of America,Other,Other,15+,"500,000+",1,1,0,1,0,0
+4815,55-59,United States of America,Other,Other,15+,">250,000",1,1,0,1,0,0
 4817,18-21,Other,Student,Other,4-5,"0-10,000",0,0,0,0,0,1
 4819,22-24,United States of America,Software Engineer,Other,1-2,"80-90,000",0,0,0,0,0,1
 4820,30-34,United Kingdom of Great Britain and Northern Ireland,Data Engineer,Other,2-3,"50-60,000",1,0,0,1,0,0
@@ -3504,7 +3504,7 @@
 4832,40-44,United States of America,Other,Academics/Education,2-3,"90-100,000",0,0,0,0,0,1
 4833,35-39,Other,Data Scientist,Accounting/Finance,0-1,"30-40,000",1,1,0,0,0,0
 4834,35-39,United States of America,Other,Medical/Pharmaceutical,2-3,"70-80,000",1,1,1,1,0,0
-4835,60+,Canada,Research Scientist,Academics/Education,15+,"250-300,000",1,1,0,1,0,0
+4835,60+,Canada,Research Scientist,Academics/Education,15+,">250,000",1,1,0,1,0,0
 4837,25-29,United States of America,Student,Other,15+,"0-10,000",0,0,0,0,0,1
 4838,35-39,Other,Research Scientist,Academics/Education,10-15,"90-100,000",0,0,0,1,1,0
 4839,40-44,Other,Other,Other,2-3,"60-70,000",1,0,1,1,1,0
@@ -3539,7 +3539,7 @@
 4875,25-29,United States of America,Data Scientist,Online Service/Internet-based Services,0-1,"70-80,000",1,1,1,0,0,0
 4876,18-21,United States of America,Student,Other,3-4,"0-10,000",0,0,0,0,0,1
 4878,22-24,Other,Data Scientist,Other,0-1,"30-40,000",0,1,0,1,0,0
-4880,60+,United States of America,Software Engineer,Medical/Pharmaceutical,,"250-300,000",1,1,1,1,1,0
+4880,60+,United States of America,Software Engineer,Medical/Pharmaceutical,,">250,000",1,1,1,1,1,0
 4881,50-54,Canada,Other,Accounting/Finance,15+,"90-100,000",0,0,1,0,0,0
 4882,25-29,Other,Other,Other,5-10,"10-20,000",1,0,0,0,0,0
 4883,30-34,United States of America,Research Scientist,Government/Public Service,1-2,"80-90,000",1,0,0,0,0,0
@@ -3606,7 +3606,7 @@
 4964,30-34,Japan,Data Scientist,Computers/Technology,0-1,"0-10,000",1,0,0,1,1,0
 4965,35-39,Other,Consultant,Other,1-2,"30-40,000",1,0,1,0,0,0
 4966,30-34,United States of America,Data Scientist,Other,3-4,"80-90,000",1,0,0,0,0,0
-4968,35-39,United States of America,Data Scientist,Other,10-15,"400-500,000",1,0,1,1,0,0
+4968,35-39,United States of America,Data Scientist,Other,10-15,">250,000",1,0,1,1,0,0
 4969,35-39,Canada,Consultant,Insurance/Risk Assessment,10-15,"90-100,000",1,0,0,1,1,0
 4970,45-49,India,Other,Other,10-15,"30-40,000",0,0,0,0,0,1
 4971,50-54,United States of America,Business Analyst,Academics/Education,5-10,"80-90,000",1,0,0,0,0,0
@@ -3793,7 +3793,7 @@
 5212,22-24,Other,Student,Academics/Education,0-1,"0-10,000",0,0,0,0,1,0
 5213,25-29,Other,Software Engineer,Computers/Technology,0-1,"30-40,000",0,0,0,0,0,1
 5214,22-24,Other,Data Scientist,Computers/Technology,0-1,"0-10,000",1,1,0,0,1,0
-5215,45-49,United States of America,Software Engineer,Computers/Technology,15+,"250-300,000",1,1,0,1,0,0
+5215,45-49,United States of America,Software Engineer,Computers/Technology,15+,">250,000",1,1,0,1,0,0
 5216,45-49,Other,Software Engineer,Computers/Technology,15+,"70-80,000",0,1,0,1,0,0
 5217,30-34,Other,Other,Online Service/Internet-based Services,0-1,"90-100,000",1,0,0,0,0,0
 5218,35-39,Other,Student,Computers/Technology,10-15,"10-20,000",1,0,0,0,0,0
@@ -3888,7 +3888,7 @@
 5329,25-29,United States of America,Data Scientist,Computers/Technology,0-1,"40-50,000",1,0,0,0,1,0
 5331,30-34,Other,Other,Computers/Technology,5-10,"20-30,000",1,0,0,0,0,0
 5332,35-39,France,Research Scientist,Academics/Education,10-15,"10-20,000",1,0,0,1,1,0
-5333,22-24,Other,Software Engineer,Online Service/Internet-based Services,0-1,"250-300,000",0,1,0,0,0,0
+5333,22-24,Other,Software Engineer,Online Service/Internet-based Services,0-1,">250,000",0,1,0,0,0,0
 5335,25-29,Brazil,Data Scientist,Other,1-2,"10-20,000",1,0,0,1,0,0
 5336,35-39,United States of America,Data Scientist,Accounting/Finance,2-3,"90-100,000",1,1,0,1,0,0
 5339,55-59,United States of America,Data Scientist,Medical/Pharmaceutical,15+,"125-150,000",1,1,1,1,1,0
@@ -3976,12 +3976,12 @@
 5455,25-29,Other,Data Analyst,Other,1-2,"10-20,000",0,0,1,1,0,0
 5457,25-29,Canada,Student,Academics/Education,3-4,"20-30,000",0,1,0,1,1,0
 5458,40-44,Australia,Other,Other,3-4,"125-150,000",1,1,1,0,0,0
-5459,45-49,United States of America,Data Scientist,Other,5-10,"250-300,000",1,0,0,0,0,0
+5459,45-49,United States of America,Data Scientist,Other,5-10,">250,000",1,0,0,0,0,0
 5460,35-39,Japan,Other,Online Service/Internet-based Services,4-5,"70-80,000",0,0,0,0,0,1
 5461,35-39,Other,Data Scientist,Computers/Technology,10-15,"10-20,000",1,0,1,1,1,0
 5462,35-39,Other,Data Scientist,Other,1-2,"20-30,000",1,1,0,0,0,0
 5463,25-29,United States of America,Data Scientist,Computers/Technology,0-1,"150-200,000",1,0,1,1,0,0
-5464,40-44,Other,Other,Other,15+,"250-300,000",1,1,0,1,1,0
+5464,40-44,Other,Other,Other,15+,">250,000",1,1,0,1,1,0
 5465,25-29,United States of America,Data Engineer,Online Service/Internet-based Services,4-5,"90-100,000",1,1,1,1,1,0
 5466,30-34,United States of America,Data Scientist,Accounting/Finance,0-1,"90-100,000",1,1,0,1,0,0
 5467,25-29,India,Data Analyst,Accounting/Finance,3-4,"0-10,000",1,0,1,0,0,0
@@ -3992,7 +3992,7 @@
 5472,25-29,United States of America,Data Scientist,Computers/Technology,3-4,"150-200,000",1,0,0,0,0,0
 5474,55-59,United States of America,Other,Other,15+,"100-125,000",1,0,1,0,0,0
 5475,30-34,Australia,Data Scientist,Accounting/Finance,5-10,"100-125,000",1,0,0,1,0,0
-5476,45-49,United States of America,Data Scientist,Computers/Technology,15+,"300-400,000",1,1,1,1,1,0
+5476,45-49,United States of America,Data Scientist,Computers/Technology,15+,">250,000",1,1,1,1,1,0
 5477,25-29,France,Data Scientist,Computers/Technology,0-1,"50-60,000",0,1,0,1,0,0
 5478,35-39,United States of America,Other,Academics/Education,4-5,"100-125,000",0,0,0,1,1,0
 5480,22-24,Other,Data Scientist,Online Service/Internet-based Services,3-4,"70-80,000",1,1,1,1,1,0
@@ -4007,7 +4007,7 @@
 5494,50-54,Other,Business Analyst,Computers/Technology,5-10,"80-90,000",1,0,0,0,0,0
 5496,22-24,Canada,Research Scientist,Other,0-1,"30-40,000",1,0,0,0,1,0
 5497,60+,Japan,Consultant,Accounting/Finance,10-15,"100-125,000",0,0,0,0,0,1
-5498,50-54,Other,Other,Computers/Technology,10-15,"250-300,000",1,0,0,0,0,0
+5498,50-54,Other,Other,Computers/Technology,10-15,">250,000",1,0,0,0,0,0
 5499,30-34,Japan,Data Scientist,Accounting/Finance,4-5,"60-70,000",1,0,0,1,0,0
 5500,18-21,Other,Business Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 5501,30-34,Other,Data Engineer,Computers/Technology,3-4,"40-50,000",1,0,1,0,0,0
@@ -4124,7 +4124,7 @@
 5658,30-34,Russia,Other,Other,10-15,"20-30,000",1,0,0,0,0,0
 5660,30-34,Other,Data Analyst,Medical/Pharmaceutical,4-5,"20-30,000",1,1,0,0,0,0
 5661,35-39,India,Other,Online Service/Internet-based Services,1-2,"0-10,000",1,0,0,0,0,0
-5662,45-49,United States of America,Other,Computers/Technology,10-15,"250-300,000",1,1,1,1,1,0
+5662,45-49,United States of America,Other,Computers/Technology,10-15,">250,000",1,1,1,1,1,0
 5663,25-29,United States of America,Data Scientist,Insurance/Risk Assessment,0-1,"90-100,000",1,0,0,1,0,0
 5664,25-29,Other,Data Scientist,Computers/Technology,2-3,"10-20,000",1,1,0,0,1,0
 5665,50-54,Other,Data Scientist,Academics/Education,15+,"30-40,000",1,0,1,0,1,0
@@ -4600,7 +4600,7 @@
 6311,25-29,Other,Data Scientist,Other,1-2,"20-30,000",1,1,1,1,1,0
 6312,25-29,India,Business Analyst,Online Service/Internet-based Services,3-4,"0-10,000",1,0,0,0,0,0
 6313,25-29,Other,Data Scientist,Other,0-1,"30-40,000",1,1,0,0,1,0
-6314,35-39,United States of America,Software Engineer,Computers/Technology,10-15,"300-400,000",0,1,0,1,0,0
+6314,35-39,United States of America,Software Engineer,Computers/Technology,10-15,">250,000",0,1,0,1,0,0
 6316,50-54,Other,Other,Academics/Education,5-10,"10-20,000",0,0,0,0,1,0
 6317,25-29,Other,Research Scientist,Academics/Education,1-2,"30-40,000",1,1,0,1,1,0
 6318,45-49,Other,Data Analyst,Other,5-10,"20-30,000",0,0,0,0,0,1
@@ -4627,7 +4627,7 @@
 6345,60+,Russia,Data Scientist,Academics/Education,,"10-20,000",0,0,0,1,0,0
 6346,35-39,Other,Data Scientist,Computers/Technology,0-1,"50-60,000",1,1,1,1,1,0
 6347,35-39,Other,Software Engineer,Computers/Technology,10-15,"40-50,000",1,0,1,1,0,0
-6349,50-54,United States of America,Other,Other,15+,"250-300,000",1,0,0,0,0,0
+6349,50-54,United States of America,Other,Other,15+,">250,000",1,0,0,0,0,0
 6350,25-29,Russia,Other,Academics/Education,4-5,"0-10,000",0,0,0,1,0,0
 6351,30-34,Russia,Data Scientist,Online Service/Internet-based Services,4-5,"60-70,000",1,1,1,1,0,0
 6352,22-24,Other,Student,Other,4-5,"0-10,000",1,1,1,1,1,0
@@ -4692,7 +4692,7 @@
 6434,30-34,Other,Software Engineer,Online Service/Internet-based Services,1-2,"30-40,000",0,0,0,0,0,1
 6435,22-24,Other,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
 6436,25-29,Other,Data Scientist,Other,1-2,"0-10,000",1,0,0,0,0,0
-6437,50-54,Other,Other,Other,3-4,"500,000+",0,1,0,0,0,0
+6437,50-54,Other,Other,Other,3-4,">250,000",0,1,0,0,0,0
 6438,30-34,Other,Data Engineer,Other,4-5,"0-10,000",0,0,0,0,0,1
 6439,25-29,France,Software Engineer,Other,1-2,"40-50,000",0,0,1,0,0,0
 6440,30-34,Canada,Data Scientist,Insurance/Risk Assessment,0-1,"70-80,000",1,1,0,1,0,0
@@ -4866,7 +4866,7 @@
 6674,35-39,Other,Other,Computers/Technology,5-10,"150-200,000",1,0,0,0,0,0
 6675,30-34,Italy,Research Scientist,Academics/Education,3-4,"20-30,000",0,0,0,1,1,0
 6677,18-21,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Insurance/Risk Assessment,0-1,"30-40,000",1,0,0,1,1,0
-6678,40-44,United States of America,Data Scientist,Medical/Pharmaceutical,15+,"250-300,000",1,0,0,1,0,0
+6678,40-44,United States of America,Data Scientist,Medical/Pharmaceutical,15+,">250,000",1,0,0,1,0,0
 6679,22-24,Other,Student,Accounting/Finance,0-1,"0-10,000",0,0,0,0,1,0
 6681,22-24,Other,Other,Academics/Education,4-5,"0-10,000",1,1,0,0,1,0
 6682,40-44,United States of America,Other,Government/Public Service,15+,"125-150,000",0,0,1,1,0,0
@@ -4943,7 +4943,7 @@
 6800,18-21,Other,Student,Other,15+,"0-10,000",0,0,0,0,0,1
 6803,30-34,United States of America,Research Scientist,Academics/Education,2-3,"60-70,000",1,0,0,0,1,0
 6804,40-44,Other,Other,Computers/Technology,4-5,"70-80,000",1,0,0,0,0,0
-6807,50-54,France,Software Engineer,Computers/Technology,15+,"300-400,000",0,1,0,1,1,0
+6807,50-54,France,Software Engineer,Computers/Technology,15+,">250,000",0,1,0,1,1,0
 6808,35-39,Other,Consultant,Academics/Education,5-10,"40-50,000",0,1,0,1,0,0
 6810,25-29,Other,Data Scientist,Computers/Technology,2-3,"200-250,000",0,1,1,1,0,0
 6811,25-29,Russia,Other,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
@@ -5160,7 +5160,7 @@
 7105,35-39,Other,Other,Computers/Technology,10-15,"40-50,000",0,0,0,0,0,1
 7106,30-34,Other,Student,Other,4-5,"10-20,000",1,0,0,0,0,0
 7107,55-59,Italy,Other,Computers/Technology,10-15,"125-150,000",1,0,0,0,0,0
-7110,40-44,Other,Data Scientist,Other,15+,"250-300,000",1,0,0,1,0,0
+7110,40-44,Other,Data Scientist,Other,15+,">250,000",1,0,0,1,0,0
 7112,25-29,Spain,Data Scientist,Other,0-1,"20-30,000",1,1,1,1,0,0
 7114,25-29,United States of America,Other,Medical/Pharmaceutical,5-10,"80-90,000",1,0,0,0,0,0
 7115,25-29,United States of America,Data Scientist,Other,1-2,"100-125,000",1,0,1,1,0,0
@@ -5194,7 +5194,7 @@
 7158,30-34,France,Other,Online Service/Internet-based Services,0-1,"0-10,000",1,0,1,0,0,0
 7159,55-59,United States of America,Other,Medical/Pharmaceutical,,"150-200,000",0,0,0,0,0,1
 7160,22-24,Brazil,Other,Other,1-2,"0-10,000",0,0,0,0,0,1
-7161,45-49,United States of America,Other,Computers/Technology,5-10,"500,000+",1,1,1,0,0,0
+7161,45-49,United States of America,Other,Computers/Technology,5-10,">250,000",1,1,1,0,0,0
 7162,22-24,Brazil,Data Scientist,Other,1-2,"0-10,000",0,1,0,1,1,0
 7163,40-44,United States of America,Other,Academics/Education,10-15,"100-125,000",1,0,0,1,1,0
 7164,50-54,United States of America,Other,Computers/Technology,15+,"200-250,000",0,0,0,0,0,1
@@ -5214,13 +5214,13 @@
 7180,22-24,United States of America,Data Scientist,Computers/Technology,0-1,"125-150,000",1,0,0,1,0,0
 7181,30-34,Canada,Software Engineer,Other,5-10,"50-60,000",1,0,1,1,0,0
 7182,60+,United States of America,Data Scientist,Computers/Technology,2-3,"150-200,000",1,0,0,1,0,0
-7185,40-44,United States of America,Data Scientist,Accounting/Finance,15+,"250-300,000",1,0,0,1,1,0
+7185,40-44,United States of America,Data Scientist,Accounting/Finance,15+,">250,000",1,0,0,1,1,0
 7186,25-29,Italy,Business Analyst,Computers/Technology,1-2,"20-30,000",0,0,0,0,0,1
 7187,40-44,Other,Other,Accounting/Finance,10-15,"10-20,000",1,1,1,1,1,0
 7188,22-24,United States of America,Student,Other,15+,"0-10,000",0,0,0,0,0,1
 7190,35-39,Brazil,Student,Accounting/Finance,0-1,"10-20,000",1,0,0,0,0,0
 7191,25-29,Other,Software Engineer,Computers/Technology,5-10,"30-40,000",1,0,0,0,1,0
-7192,55-59,United States of America,Other,Medical/Pharmaceutical,0-1,"300-400,000",0,1,0,1,0,0
+7192,55-59,United States of America,Other,Medical/Pharmaceutical,0-1,">250,000",0,1,0,1,0,0
 7193,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 7195,30-34,United Kingdom of Great Britain and Northern Ireland,Data Analyst,Other,0-1,"40-50,000",1,1,0,1,1,0
 7196,25-29,Other,Data Analyst,Accounting/Finance,0-1,"30-40,000",1,0,0,0,0,0
@@ -5390,7 +5390,7 @@
 7430,25-29,Other,Student,Other,3-4,"0-10,000",0,0,0,0,0,1
 7431,25-29,Canada,Other,Accounting/Finance,5-10,"30-40,000",0,0,0,0,0,1
 7432,45-49,Australia,Consultant,Computers/Technology,15+,"90-100,000",1,0,1,0,0,0
-7433,35-39,Other,Other,Computers/Technology,0-1,"250-300,000",1,0,1,1,1,0
+7433,35-39,Other,Other,Computers/Technology,0-1,">250,000",1,0,1,1,1,0
 7434,30-34,United States of America,Business Analyst,Other,2-3,"50-60,000",1,0,1,1,0,0
 7436,25-29,Canada,Research Scientist,Academics/Education,5-10,"40-50,000",0,0,0,0,0,1
 7437,22-24,United States of America,Software Engineer,Other,4-5,"70-80,000",0,0,0,0,0,1
@@ -5480,7 +5480,7 @@
 7574,22-24,China,Data Analyst,Computers/Technology,2-3,"90-100,000",1,0,0,0,0,0
 7575,30-34,United States of America,Other,Other,0-1,"70-80,000",1,0,0,0,0,0
 7577,22-24,India,Software Engineer,Computers/Technology,2-3,"0-10,000",1,0,0,1,0,0
-7578,50-54,United States of America,Software Engineer,Other,,"500,000+",1,0,1,1,1,0
+7578,50-54,United States of America,Software Engineer,Other,,">250,000",1,0,1,1,1,0
 7580,25-29,China,Data Analyst,Accounting/Finance,2-3,"20-30,000",1,1,0,0,0,0
 7585,22-24,China,Research Scientist,Academics/Education,1-2,"40-50,000",1,1,1,1,1,0
 7588,22-24,United States of America,Other,Academics/Education,0-1,"10-20,000",0,0,0,1,1,0
@@ -5712,7 +5712,7 @@
 7999,35-39,Other,Software Engineer,Computers/Technology,4-5,"40-50,000",0,1,0,1,0,0
 8000,25-29,China,Data Scientist,Other,2-3,"50-60,000",0,0,0,0,1,0
 8001,22-24,China,Student,Academics/Education,2-3,"0-10,000",1,1,0,0,0,0
-8004,22-24,India,Data Analyst,Accounting/Finance,2-3,"500,000+",1,0,1,1,0,0
+8004,22-24,India,Data Analyst,Accounting/Finance,2-3,">250,000",1,0,1,1,0,0
 8006,25-29,India,Software Engineer,Computers/Technology,1-2,"0-10,000",1,1,1,0,0,0
 8007,25-29,India,Data Scientist,Computers/Technology,4-5,"10-20,000",1,1,0,1,1,0
 8008,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
@@ -5814,7 +5814,7 @@
 8203,35-39,India,Data Analyst,Other,3-4,"10-20,000",1,0,1,0,0,0
 8204,22-24,Other,Student,Other,4-5,"0-10,000",0,0,0,0,0,1
 8205,18-21,United Kingdom of Great Britain and Northern Ireland,Student,Computers/Technology,0-1,"10-20,000",0,0,1,0,0,0
-8206,22-24,India,Software Engineer,Other,1-2,"250-300,000",1,1,0,1,0,0
+8206,22-24,India,Software Engineer,Other,1-2,">250,000",1,1,0,1,0,0
 8207,18-21,India,Student,Other,0-1,"0-10,000",1,0,0,0,0,0
 8209,35-39,India,Data Scientist,Computers/Technology,3-4,"10-20,000",0,1,0,0,0,0
 8210,25-29,India,Data Analyst,Computers/Technology,0-1,"0-10,000",1,0,0,1,0,0
@@ -5845,7 +5845,7 @@
 8254,25-29,Other,Business Analyst,Accounting/Finance,1-2,"30-40,000",1,0,1,1,0,0
 8255,22-24,India,Software Engineer,Computers/Technology,0-1,"0-10,000",1,0,0,0,0,0
 8256,30-34,Other,Other,Accounting/Finance,0-1,"60-70,000",1,1,0,0,0,0
-8257,60+,India,Other,Online Service/Internet-based Services,15+,"250-300,000",1,0,0,1,0,0
+8257,60+,India,Other,Online Service/Internet-based Services,15+,">250,000",1,0,0,1,0,0
 8261,22-24,Spain,Software Engineer,Accounting/Finance,0-1,"20-30,000",0,0,0,0,0,1
 8262,22-24,India,Software Engineer,Computers/Technology,1-2,"0-10,000",1,0,1,1,0,0
 8263,40-44,India,Other,Computers/Technology,3-4,"0-10,000",1,1,1,1,0,0
@@ -5898,7 +5898,7 @@
 8334,22-24,India,Software Engineer,Other,0-1,"10-20,000",0,0,0,0,0,1
 8337,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 8339,22-24,Other,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,0,1,0,0
-8340,25-29,India,Data Scientist,Computers/Technology,0-1,"250-300,000",1,1,0,0,1,0
+8340,25-29,India,Data Scientist,Computers/Technology,0-1,">250,000",1,1,0,0,1,0
 8341,40-44,India,Other,Insurance/Risk Assessment,5-10,"90-100,000",1,0,0,1,1,0
 8342,18-21,India,Student,Computers/Technology,0-1,"0-10,000",1,1,1,1,1,0
 8343,35-39,Other,Software Engineer,Computers/Technology,10-15,"10-20,000",1,1,1,0,1,0
@@ -6030,7 +6030,7 @@
 8546,25-29,India,Other,Other,1-2,"0-10,000",0,0,0,0,0,1
 8547,40-44,Australia,Data Scientist,Other,4-5,"90-100,000",0,0,1,0,0,0
 8548,30-34,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Computers/Technology,4-5,"80-90,000",1,1,1,1,0,0
-8549,22-24,India,Other,Computers/Technology,2-3,"400-500,000",1,0,0,0,0,0
+8549,22-24,India,Other,Computers/Technology,2-3,">250,000",1,0,0,0,0,0
 8550,22-24,Russia,Student,Other,5-10,"0-10,000",1,0,0,1,0,0
 8551,22-24,India,Data Scientist,Other,0-1,"0-10,000",1,0,0,0,1,0
 8553,25-29,India,Software Engineer,Medical/Pharmaceutical,3-4,"0-10,000",0,0,0,1,0,0
@@ -6075,7 +6075,7 @@
 8628,30-34,India,Consultant,Computers/Technology,1-2,"10-20,000",1,0,1,1,0,0
 8629,25-29,Other,Software Engineer,Computers/Technology,3-4,"30-40,000",0,0,0,0,0,1
 8630,25-29,India,Data Analyst,Insurance/Risk Assessment,0-1,"0-10,000",0,1,0,0,0,0
-8632,45-49,Other,Other,Other,10-15,"400-500,000",1,0,1,0,0,0
+8632,45-49,Other,Other,Other,10-15,">250,000",1,0,1,0,0,0
 8633,22-24,India,Software Engineer,Computers/Technology,1-2,"0-10,000",1,0,0,1,1,0
 8637,30-34,India,Business Analyst,Computers/Technology,5-10,"0-10,000",1,1,1,1,1,0
 8638,40-44,Other,Data Analyst,Other,10-15,"40-50,000",1,0,0,0,0,0
@@ -6088,7 +6088,7 @@
 8647,50-54,Canada,Consultant,Computers/Technology,15+,"125-150,000",0,0,0,0,0,1
 8648,22-24,India,Student,Computers/Technology,0-1,"0-10,000",0,1,0,1,0,0
 8649,25-29,Italy,Other,Academics/Education,1-2,"20-30,000",1,1,0,1,1,0
-8651,30-34,Other,Research Scientist,Computers/Technology,10-15,"250-300,000",0,1,0,0,0,0
+8651,30-34,Other,Research Scientist,Computers/Technology,10-15,">250,000",0,1,0,0,0,0
 8652,18-21,India,Student,Other,0-1,"0-10,000",0,1,0,0,0,0
 8653,30-34,Other,Research Scientist,Computers/Technology,5-10,"30-40,000",0,1,0,1,1,0
 8654,40-44,Brazil,Other,Government/Public Service,1-2,"0-10,000",0,0,0,0,0,1
@@ -6253,7 +6253,7 @@
 8895,18-21,Other,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,1,0,0,0
 8896,25-29,Other,Data Scientist,Other,2-3,"0-10,000",1,0,0,1,0,0
 8897,25-29,Germany,Research Scientist,Academics/Education,0-1,"40-50,000",0,0,0,0,0,1
-8899,25-29,Other,Data Analyst,Accounting/Finance,5-10,"500,000+",1,0,0,0,0,0
+8899,25-29,Other,Data Analyst,Accounting/Finance,5-10,">250,000",1,0,0,0,0,0
 8900,30-34,Other,Data Scientist,Computers/Technology,1-2,"20-30,000",1,1,1,0,0,0
 8901,45-49,India,Other,Computers/Technology,10-15,"90-100,000",0,0,0,0,0,1
 8902,22-24,Other,Research Scientist,Computers/Technology,1-2,"20-30,000",0,0,0,1,0,0
@@ -6269,7 +6269,7 @@
 8918,25-29,Other,Data Scientist,Other,0-1,"30-40,000",1,1,1,1,0,0
 8920,30-34,Other,Other,Other,0-1,"10-20,000",1,0,1,0,0,0
 8924,22-24,France,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
-8926,18-21,Other,Other,Accounting/Finance,1-2,"500,000+",1,1,0,0,0,0
+8926,18-21,Other,Other,Accounting/Finance,1-2,">250,000",1,1,0,0,0,0
 8927,25-29,Germany,Research Scientist,Academics/Education,0-1,"50-60,000",0,0,0,0,0,1
 8928,40-44,Other,Other,Computers/Technology,15+,"70-80,000",1,0,0,1,1,0
 8929,35-39,Italy,Other,Computers/Technology,10-15,"30-40,000",1,0,0,1,0,0
@@ -6279,7 +6279,7 @@
 8934,25-29,Brazil,Software Engineer,Government/Public Service,0-1,"0-10,000",0,0,0,0,0,1
 8935,30-34,Other,Research Scientist,Computers/Technology,1-2,"70-80,000",1,0,0,1,0,0
 8937,18-21,China,Student,Computers/Technology,0-1,"0-10,000",0,0,1,0,0,0
-8938,35-39,United States of America,Software Engineer,Other,10-15,"250-300,000",1,1,1,1,0,0
+8938,35-39,United States of America,Software Engineer,Other,10-15,">250,000",1,1,1,1,0,0
 8939,50-54,Other,Data Scientist,Accounting/Finance,5-10,"100-125,000",1,1,0,1,0,0
 8940,30-34,Other,Other,Academics/Education,4-5,"0-10,000",0,0,0,1,0,0
 8941,25-29,Other,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
@@ -6382,7 +6382,7 @@
 9101,18-21,Australia,Student,Academics/Education,0-1,"0-10,000",0,0,0,0,0,1
 9102,35-39,Japan,Consultant,Medical/Pharmaceutical,5-10,"90-100,000",0,0,1,0,0,0
 9103,35-39,India,Other,Computers/Technology,10-15,"125-150,000",1,0,1,1,0,0
-9104,30-34,United Kingdom of Great Britain and Northern Ireland,Research Scientist,Accounting/Finance,4-5,"300-400,000",1,0,0,1,0,0
+9104,30-34,United Kingdom of Great Britain and Northern Ireland,Research Scientist,Accounting/Finance,4-5,">250,000",1,0,0,1,0,0
 9106,50-54,India,Other,Academics/Education,15+,"0-10,000",0,0,0,0,0,1
 9107,35-39,Brazil,Other,Other,10-15,"40-50,000",1,0,0,0,1,0
 9108,22-24,Italy,Data Analyst,Online Service/Internet-based Services,0-1,"30-40,000",1,1,0,0,0,0
@@ -6456,7 +6456,7 @@
 9223,40-44,Australia,Student,Other,4-5,"0-10,000",0,0,0,0,0,1
 9224,35-39,Japan,Other,Medical/Pharmaceutical,5-10,"40-50,000",0,0,0,0,0,1
 9227,22-24,Other,Student,Computers/Technology,0-1,"0-10,000",0,1,0,0,0,0
-9228,35-39,Other,Software Engineer,Other,5-10,"500,000+",0,1,0,0,0,0
+9228,35-39,Other,Software Engineer,Other,5-10,">250,000",0,1,0,0,0,0
 9231,35-39,India,Data Engineer,Other,4-5,"50-60,000",1,0,0,0,0,0
 9234,30-34,Other,Data Analyst,Accounting/Finance,1-2,"100-125,000",1,0,0,0,0,0
 9240,35-39,Japan,Data Analyst,Other,1-2,"60-70,000",1,0,0,0,0,0
@@ -6532,7 +6532,7 @@
 9347,25-29,India,Software Engineer,Online Service/Internet-based Services,1-2,"0-10,000",1,0,1,0,0,0
 9348,30-34,Japan,Software Engineer,Other,5-10,"60-70,000",0,0,0,1,0,0
 9349,25-29,Other,Consultant,Other,1-2,"10-20,000",1,0,1,0,0,0
-9352,30-34,India,Other,Other,5-10,"250-300,000",1,1,0,1,1,0
+9352,30-34,India,Other,Other,5-10,">250,000",1,1,0,1,1,0
 9353,55-59,Other,Other,Accounting/Finance,15+,"10-20,000",1,0,0,0,0,0
 9354,25-29,United States of America,Data Scientist,Other,2-3,"70-80,000",0,1,0,0,0,0
 9357,18-21,Japan,Student,Medical/Pharmaceutical,0-1,"0-10,000",0,1,0,0,0,0
@@ -6644,7 +6644,7 @@
 9514,50-54,United States of America,Data Engineer,Other,5-10,"100-125,000",0,1,0,0,0,0
 9515,25-29,Other,Software Engineer,Computers/Technology,3-4,"10-20,000",0,0,0,0,0,1
 9516,40-44,India,Data Scientist,Computers/Technology,3-4,"30-40,000",1,0,0,1,0,0
-9517,50-54,Canada,Other,Computers/Technology,,"500,000+",1,1,0,1,1,0
+9517,50-54,Canada,Other,Computers/Technology,,">250,000",1,1,0,1,1,0
 9518,22-24,Other,Software Engineer,Other,0-1,"0-10,000",0,0,0,0,0,1
 9520,30-34,United States of America,Data Scientist,Other,1-2,"125-150,000",1,1,1,1,0,0
 9521,18-21,Other,Student,Insurance/Risk Assessment,0-1,"0-10,000",1,0,0,1,1,0
@@ -6685,7 +6685,7 @@
 9575,25-29,United States of America,Other,Other,1-2,"50-60,000",0,0,0,0,0,1
 9576,30-34,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Other,0-1,"60-70,000",1,0,0,0,1,0
 9577,22-24,Other,Data Analyst,Computers/Technology,0-1,"30-40,000",1,1,0,1,0,0
-9578,60+,United States of America,Other,Medical/Pharmaceutical,,"300-400,000",0,0,0,0,0,1
+9578,60+,United States of America,Other,Medical/Pharmaceutical,,">250,000",0,0,0,0,0,1
 9580,18-21,United States of America,Student,Other,2-3,"0-10,000",0,0,0,0,0,1
 9581,40-44,Brazil,Other,Insurance/Risk Assessment,5-10,"20-30,000",1,0,0,0,0,0
 9584,35-39,United States of America,Research Scientist,Academics/Education,5-10,"60-70,000",0,0,0,1,1,0
@@ -6831,7 +6831,7 @@
 9789,35-39,Other,Consultant,Computers/Technology,4-5,"20-30,000",1,0,0,0,0,0
 9790,35-39,Canada,Data Analyst,Computers/Technology,1-2,"60-70,000",1,0,1,0,0,0
 9791,30-34,Germany,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
-9793,40-44,Other,Other,Academics/Education,10-15,"250-300,000",1,0,0,0,1,0
+9793,40-44,Other,Other,Academics/Education,10-15,">250,000",1,0,0,0,1,0
 9795,30-34,United States of America,Business Analyst,Academics/Education,0-1,"10-20,000",0,0,0,0,0,1
 9798,30-34,Other,Software Engineer,Computers/Technology,2-3,"20-30,000",0,0,0,0,0,1
 9799,25-29,United States of America,Consultant,Other,2-3,"90-100,000",1,0,0,0,0,0
@@ -6906,7 +6906,7 @@
 9902,40-44,Other,Consultant,Accounting/Finance,1-2,"0-10,000",0,0,0,0,0,1
 9903,25-29,India,Student,Other,2-3,"0-10,000",0,0,0,0,0,1
 9906,25-29,Canada,Software Engineer,Other,4-5,"50-60,000",0,0,1,0,0,0
-9907,60+,United States of America,Other,Computers/Technology,15+,"300-400,000",0,0,0,0,1,0
+9907,60+,United States of America,Other,Computers/Technology,15+,">250,000",0,0,0,0,1,0
 9908,35-39,Other,Data Engineer,Computers/Technology,15+,"100-125,000",1,1,1,1,0,0
 9909,30-34,United States of America,Data Engineer,Accounting/Finance,10-15,"150-200,000",1,0,0,0,0,1
 9910,30-34,Other,Business Analyst,Other,3-4,"70-80,000",1,1,1,0,0,0
@@ -6944,7 +6944,7 @@
 9961,30-34,United States of America,Consultant,Accounting/Finance,5-10,"80-90,000",1,0,0,1,1,0
 9962,22-24,Other,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
 9963,40-44,Germany,Other,Computers/Technology,1-2,"100-125,000",1,0,1,1,0,0
-9964,45-49,United States of America,Consultant,Other,10-15,"250-300,000",1,0,0,0,0,0
+9964,45-49,United States of America,Consultant,Other,10-15,">250,000",1,0,0,0,0,0
 9965,25-29,Other,Consultant,Computers/Technology,2-3,"0-10,000",0,0,0,0,0,1
 9966,22-24,France,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 9967,50-54,Other,Data Scientist,Computers/Technology,1-2,"0-10,000",0,1,1,0,1,0
@@ -7034,7 +7034,7 @@
 10090,30-34,India,Data Analyst,Other,4-5,"10-20,000",1,0,0,0,0,0
 10091,40-44,Spain,Other,Other,10-15,"30-40,000",0,0,0,0,0,1
 10093,40-44,Brazil,Consultant,Government/Public Service,5-10,"10-20,000",0,1,0,0,0,0
-10094,60+,United States of America,Software Engineer,Online Service/Internet-based Services,,"300-400,000",1,1,1,1,1,0
+10094,60+,United States of America,Software Engineer,Online Service/Internet-based Services,,">250,000",1,1,1,1,1,0
 10095,25-29,Other,Other,Computers/Technology,5-10,"30-40,000",0,0,0,0,0,1
 10096,22-24,Canada,Data Scientist,Computers/Technology,0-1,"60-70,000",1,1,1,1,0,0
 10097,22-24,India,Software Engineer,Computers/Technology,3-4,"0-10,000",1,0,0,0,0,0
@@ -7108,7 +7108,7 @@
 10201,30-34,Italy,Data Engineer,Other,1-2,"30-40,000",0,1,1,0,0,0
 10202,50-54,United States of America,Software Engineer,Computers/Technology,15+,"125-150,000",0,0,0,1,1,0
 10203,25-29,Mexico,Data Scientist,Computers/Technology,0-1,"80-90,000",1,1,0,1,0,0
-10206,45-49,United States of America,Other,Computers/Technology,2-3,"250-300,000",1,1,1,1,1,0
+10206,45-49,United States of America,Other,Computers/Technology,2-3,">250,000",1,1,1,1,1,0
 10208,25-29,Other,Other,Other,3-4,"20-30,000",1,1,0,0,0,0
 10209,50-54,United States of America,Data Scientist,Insurance/Risk Assessment,1-2,"0-10,000",1,0,0,1,1,0
 10211,25-29,Canada,Data Scientist,Academics/Education,4-5,"40-50,000",1,0,0,0,0,0
@@ -7147,7 +7147,7 @@
 10259,22-24,Other,Software Engineer,Medical/Pharmaceutical,1-2,"20-30,000",0,0,0,0,0,1
 10264,30-34,Brazil,Data Scientist,Accounting/Finance,5-10,"100-125,000",1,1,1,1,0,0
 10265,55-59,United States of America,Consultant,Other,0-1,"100-125,000",0,0,0,0,0,1
-10268,55-59,United States of America,Other,Online Service/Internet-based Services,15+,"250-300,000",1,1,1,1,0,0
+10268,55-59,United States of America,Other,Online Service/Internet-based Services,15+,">250,000",1,1,1,1,0,0
 10269,30-34,Other,Other,Government/Public Service,4-5,"0-10,000",0,0,0,0,0,1
 10272,30-34,United States of America,Data Scientist,Other,0-1,"125-150,000",0,1,0,1,1,0
 10273,60+,United States of America,Software Engineer,Computers/Technology,,"125-150,000",0,0,1,0,0,0
@@ -7168,7 +7168,7 @@
 10297,40-44,United States of America,Data Engineer,Medical/Pharmaceutical,2-3,"90-100,000",1,0,1,1,0,0
 10300,30-34,United States of America,Other,Government/Public Service,5-10,"100-125,000",1,1,0,1,0,0
 10301,22-24,United States of America,Data Analyst,Computers/Technology,0-1,"80-90,000",1,0,1,0,0,0
-10302,35-39,United Kingdom of Great Britain and Northern Ireland,Data Engineer,Other,3-4,"300-400,000",0,1,1,1,0,0
+10302,35-39,United Kingdom of Great Britain and Northern Ireland,Data Engineer,Other,3-4,">250,000",0,1,1,1,0,0
 10303,25-29,India,Data Scientist,Other,0-1,"10-20,000",1,1,1,1,0,0
 10304,18-21,United States of America,Student,Other,10-15,"0-10,000",0,0,0,0,0,1
 10305,30-34,United States of America,Other,Accounting/Finance,0-1,"125-150,000",1,1,0,1,0,0
@@ -7273,7 +7273,7 @@
 10443,22-24,United States of America,Data Scientist,Computers/Technology,0-1,"70-80,000",1,1,1,1,1,0
 10444,35-39,Brazil,Data Engineer,Insurance/Risk Assessment,15+,"50-60,000",1,1,1,0,1,0
 10445,40-44,Other,Data Scientist,Computers/Technology,10-15,"100-125,000",1,1,1,1,1,0
-10447,50-54,United States of America,Research Scientist,Computers/Technology,15+,"250-300,000",0,0,0,1,1,0
+10447,50-54,United States of America,Research Scientist,Computers/Technology,15+,">250,000",0,0,0,1,1,0
 10448,35-39,United States of America,Research Scientist,Other,3-4,"125-150,000",0,1,0,1,1,0
 10449,35-39,United States of America,Data Scientist,Government/Public Service,10-15,"150-200,000",1,1,0,0,0,0
 10450,40-44,United States of America,Research Scientist,Other,5-10,"200-250,000",1,0,0,1,1,0
@@ -7287,7 +7287,7 @@
 10458,30-34,United States of America,Research Scientist,Academics/Education,2-3,"50-60,000",0,0,0,1,1,0
 10460,30-34,United States of America,Data Scientist,Other,1-2,"100-125,000",0,1,0,1,0,0
 10461,22-24,United States of America,Other,Other,0-1,"50-60,000",1,0,0,0,0,0
-10464,50-54,United Kingdom of Great Britain and Northern Ireland,Other,Government/Public Service,15+,"300-400,000",1,0,0,0,0,0
+10464,50-54,United Kingdom of Great Britain and Northern Ireland,Other,Government/Public Service,15+,">250,000",1,0,0,0,0,0
 10465,40-44,Other,Data Scientist,Online Service/Internet-based Services,1-2,"50-60,000",1,1,1,1,0,0
 10467,50-54,United States of America,Data Scientist,Medical/Pharmaceutical,1-2,"90-100,000",0,0,0,0,0,1
 10468,22-24,France,Data Scientist,Computers/Technology,0-1,"20-30,000",1,1,0,1,0,0
@@ -7534,7 +7534,7 @@
 10817,35-39,Other,Other,Computers/Technology,4-5,"125-150,000",1,1,1,1,1,0
 10818,22-24,United States of America,Student,Other,3-4,"0-10,000",0,0,0,0,0,1
 10819,22-24,Spain,Data Scientist,Other,0-1,"0-10,000",1,0,0,0,0,0
-10820,30-34,United States of America,Software Engineer,Other,5-10,"300-400,000",1,1,0,0,0,0
+10820,30-34,United States of America,Software Engineer,Other,5-10,">250,000",1,1,0,0,0,0
 10821,40-44,Other,Software Engineer,Government/Public Service,15+,"40-50,000",0,0,0,0,0,1
 10822,22-24,Other,Data Engineer,Accounting/Finance,1-2,"10-20,000",0,1,1,0,0,0
 10826,35-39,Other,Data Scientist,Online Service/Internet-based Services,5-10,"20-30,000",1,1,1,1,1,0
@@ -7734,7 +7734,7 @@
 11125,35-39,Other,Other,Other,5-10,"40-50,000",1,0,1,0,0,0
 11128,40-44,Russia,Other,Computers/Technology,15+,"0-10,000",1,0,0,0,0,0
 11129,40-44,Japan,Data Scientist,Computers/Technology,4-5,"70-80,000",1,0,0,0,0,0
-11130,45-49,United States of America,Other,Accounting/Finance,15+,"300-400,000",1,0,1,0,0,0
+11130,45-49,United States of America,Other,Accounting/Finance,15+,">250,000",1,0,1,0,0,0
 11131,22-24,United States of America,Other,Academics/Education,0-1,"10-20,000",1,0,0,0,0,1
 11132,25-29,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Computers/Technology,1-2,"60-70,000",1,1,1,1,0,0
 11136,25-29,United States of America,Data Scientist,Accounting/Finance,0-1,"100-125,000",1,1,1,1,0,0
@@ -7768,7 +7768,7 @@
 11173,40-44,Other,Data Scientist,Academics/Education,2-3,"10-20,000",0,0,0,0,1,0
 11174,30-34,Other,Research Scientist,Other,2-3,"50-60,000",1,0,0,1,0,0
 11175,25-29,Canada,Student,Other,0-1,"0-10,000",0,0,0,1,1,0
-11176,45-49,Other,Other,Other,5-10,"500,000+",1,1,1,1,1,0
+11176,45-49,Other,Other,Other,5-10,">250,000",1,1,1,1,1,0
 11178,25-29,Other,Research Scientist,Academics/Education,3-4,"0-10,000",0,0,0,0,1,0
 11181,35-39,United States of America,Data Scientist,Computers/Technology,10-15,"125-150,000",1,0,0,1,1,0
 11182,30-34,United Kingdom of Great Britain and Northern Ireland,Research Scientist,Academics/Education,5-10,"50-60,000",1,0,0,0,0,0
@@ -7810,7 +7810,7 @@
 11237,22-24,United States of America,Software Engineer,Other,0-1,"40-50,000",0,0,0,0,0,1
 11241,25-29,United States of America,Data Scientist,Computers/Technology,0-1,"100-125,000",0,0,0,1,0,0
 11242,40-44,Japan,Other,Computers/Technology,10-15,"50-60,000",0,0,0,0,1,0
-11244,22-24,Other,Business Analyst,Computers/Technology,15+,"500,000+",1,1,1,1,1,0
+11244,22-24,Other,Business Analyst,Computers/Technology,15+,">250,000",1,1,1,1,1,0
 11245,45-49,United States of America,Other,Accounting/Finance,15+,"70-80,000",0,0,0,0,0,1
 11246,30-34,Japan,Data Scientist,Computers/Technology,2-3,"60-70,000",0,0,0,1,0,0
 11247,35-39,United States of America,Software Engineer,Other,5-10,"80-90,000",0,0,1,0,0,0
@@ -7833,7 +7833,7 @@
 11274,30-34,China,Other,Other,5-10,"125-150,000",1,0,0,0,0,0
 11276,22-24,Brazil,Data Scientist,Other,2-3,"0-10,000",0,0,0,0,0,1
 11277,35-39,Japan,Research Scientist,Online Service/Internet-based Services,0-1,"50-60,000",1,1,0,1,1,0
-11280,55-59,Australia,Software Engineer,Computers/Technology,,"250-300,000",0,0,0,0,0,1
+11280,55-59,Australia,Software Engineer,Computers/Technology,,">250,000",0,0,0,0,0,1
 11281,22-24,China,Business Analyst,Computers/Technology,1-2,"10-20,000",1,0,0,0,0,0
 11282,40-44,Brazil,Software Engineer,Computers/Technology,5-10,"0-10,000",0,0,0,0,0,1
 11284,55-59,United States of America,Other,Accounting/Finance,10-15,"200-250,000",1,0,1,0,0,0
@@ -7860,7 +7860,7 @@
 11316,22-24,Canada,Student,Other,1-2,"10-20,000",0,0,0,0,0,1
 11318,22-24,Other,Data Scientist,Online Service/Internet-based Services,0-1,"30-40,000",0,1,0,0,0,0
 11319,35-39,Japan,Other,Other,4-5,"50-60,000",0,0,0,0,0,1
-11321,45-49,United States of America,Data Scientist,Computers/Technology,10-15,"300-400,000",0,0,0,1,0,0
+11321,45-49,United States of America,Data Scientist,Computers/Technology,10-15,">250,000",0,0,0,1,0,0
 11322,25-29,United States of America,Data Scientist,Other,0-1,"80-90,000",1,1,0,0,0,0
 11324,22-24,Other,Data Scientist,Academics/Education,0-1,"0-10,000",0,0,0,0,1,0
 11325,50-54,Australia,Data Scientist,Government/Public Service,5-10,"100-125,000",1,0,0,0,0,0
@@ -7868,7 +7868,7 @@
 11328,25-29,Japan,Student,Other,0-1,"0-10,000",0,0,0,0,1,0
 11330,22-24,United States of America,Data Scientist,Other,2-3,"10-20,000",0,0,0,0,0,1
 11331,50-54,Australia,Research Scientist,Government/Public Service,10-15,"60-70,000",1,0,0,1,0,0
-11334,35-39,Japan,Research Scientist,Computers/Technology,4-5,"300-400,000",0,1,0,1,1,0
+11334,35-39,Japan,Research Scientist,Computers/Technology,4-5,">250,000",0,1,0,1,1,0
 11335,25-29,Other,Data Analyst,Government/Public Service,1-2,"30-40,000",1,1,1,0,0,0
 11336,22-24,Other,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,0,1,0,0
 11337,18-21,United States of America,Student,Online Service/Internet-based Services,1-2,"0-10,000",0,0,0,0,0,1
@@ -7898,7 +7898,7 @@
 11373,22-24,Other,Data Scientist,Computers/Technology,0-1,"20-30,000",1,1,1,0,1,0
 11374,25-29,France,Data Analyst,Computers/Technology,1-2,"20-30,000",1,1,0,1,1,0
 11375,60+,India,Data Analyst,Academics/Education,,"30-40,000",1,0,0,0,0,0
-11376,22-24,Japan,Data Scientist,Other,0-1,"250-300,000",1,1,1,1,1,0
+11376,22-24,Japan,Data Scientist,Other,0-1,">250,000",1,1,1,1,1,0
 11377,40-44,United States of America,Data Scientist,Computers/Technology,3-4,"150-200,000",1,0,0,1,0,0
 11378,30-34,Japan,Data Analyst,Other,3-4,"40-50,000",1,0,0,0,0,0
 11379,40-44,India,Other,Medical/Pharmaceutical,5-10,"40-50,000",1,1,0,1,1,0
@@ -8004,7 +8004,7 @@
 11529,50-54,United States of America,Other,Insurance/Risk Assessment,4-5,"150-200,000",1,0,0,1,0,0
 11530,25-29,Other,Other,Academics/Education,1-2,"0-10,000",0,1,0,1,0,0
 11531,18-21,United States of America,Student,Medical/Pharmaceutical,0-1,"20-30,000",0,0,1,1,0,0
-11533,30-34,United States of America,Other,Other,10-15,"250-300,000",1,1,1,1,1,0
+11533,30-34,United States of America,Other,Other,10-15,">250,000",1,1,1,1,1,0
 11535,22-24,China,Student,Other,0-1,"0-10,000",0,0,0,0,1,0
 11536,25-29,United States of America,Other,Medical/Pharmaceutical,5-10,"100-125,000",0,0,1,1,0,0
 11537,35-39,United States of America,Research Scientist,Academics/Education,0-1,"50-60,000",1,0,0,1,0,0
@@ -8055,7 +8055,7 @@
 11606,35-39,United States of America,Data Analyst,Accounting/Finance,4-5,"100-125,000",0,0,0,0,0,1
 11607,25-29,Other,Data Analyst,Computers/Technology,1-2,"40-50,000",1,0,0,0,0,0
 11608,35-39,Other,Other,Academics/Education,10-15,"30-40,000",1,0,0,0,0,0
-11609,40-44,United States of America,Data Scientist,Computers/Technology,5-10,"300-400,000",0,1,0,1,1,0
+11609,40-44,United States of America,Data Scientist,Computers/Technology,5-10,">250,000",0,1,0,1,1,0
 11610,25-29,China,Business Analyst,Academics/Education,1-2,"10-20,000",1,0,0,0,0,0
 11613,30-34,China,Software Engineer,Computers/Technology,5-10,"30-40,000",0,0,0,1,1,0
 11615,35-39,Brazil,Student,Computers/Technology,4-5,"0-10,000",0,0,0,0,1,0
@@ -8081,7 +8081,7 @@
 11647,60+,United States of America,Other,Academics/Education,10-15,"100-125,000",1,0,1,1,0,0
 11649,25-29,China,Data Analyst,Computers/Technology,2-3,"20-30,000",0,0,1,0,0,0
 11652,25-29,Other,Data Analyst,Accounting/Finance,4-5,"100-125,000",1,1,0,0,0,0
-11653,45-49,United States of America,Other,Computers/Technology,15+,"300-400,000",1,0,1,1,0,0
+11653,45-49,United States of America,Other,Computers/Technology,15+,">250,000",1,0,1,1,0,0
 11654,22-24,Other,Data Scientist,Other,0-1,"0-10,000",0,1,0,0,0,0
 11655,22-24,Other,Research Scientist,Other,10-15,"0-10,000",0,1,0,0,0,0
 11656,60+,Russia,Other,Academics/Education,10-15,"10-20,000",0,0,0,0,0,1
@@ -8198,7 +8198,7 @@
 11838,25-29,India,Consultant,Other,5-10,"30-40,000",1,0,0,1,0,0
 11840,50-54,Other,Data Scientist,Online Service/Internet-based Services,0-1,"60-70,000",1,1,0,1,1,0
 11841,35-39,Other,Data Engineer,Computers/Technology,2-3,"100-125,000",0,0,0,0,0,1
-11844,30-34,India,Data Analyst,Other,3-4,"400-500,000",1,0,0,0,0,0
+11844,30-34,India,Data Analyst,Other,3-4,">250,000",1,0,0,0,0,0
 11845,35-39,United States of America,Data Scientist,Online Service/Internet-based Services,3-4,"150-200,000",1,0,0,0,0,0
 11847,25-29,Russia,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 11848,60+,United States of America,Consultant,Computers/Technology,4-5,"100-125,000",0,0,1,0,0,1
@@ -8355,7 +8355,7 @@
 12078,35-39,Other,Business Analyst,Other,10-15,"10-20,000",1,0,0,0,0,0
 12079,25-29,Other,Data Analyst,Computers/Technology,2-3,"0-10,000",1,0,0,0,0,0
 12080,35-39,Other,Data Analyst,Academics/Education,10-15,"0-10,000",0,0,0,0,0,1
-12082,30-34,United States of America,Software Engineer,Other,10-15,"250-300,000",1,1,1,1,1,0
+12082,30-34,United States of America,Software Engineer,Other,10-15,">250,000",1,1,1,1,1,0
 12083,22-24,Other,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,1
 12084,40-44,Other,Data Scientist,Academics/Education,10-15,"30-40,000",0,0,0,0,0,1
 12086,50-54,Germany,Consultant,Computers/Technology,15+,"125-150,000",0,0,1,1,0,0
@@ -8364,7 +8364,7 @@
 12089,40-44,China,Other,Academics/Education,10-15,"0-10,000",0,0,0,0,1,0
 12090,30-34,France,Data Scientist,Government/Public Service,4-5,"40-50,000",1,1,1,1,0,0
 12091,25-29,Other,Consultant,Computers/Technology,0-1,"60-70,000",1,1,0,1,0,0
-12092,25-29,China,Data Scientist,Computers/Technology,2-3,"500,000+",0,0,0,0,1,0
+12092,25-29,China,Data Scientist,Computers/Technology,2-3,">250,000",0,0,0,0,1,0
 12093,25-29,Germany,Other,Other,1-2,"30-40,000",1,1,0,1,1,1
 12094,25-29,Other,Software Engineer,Academics/Education,1-2,"50-60,000",0,0,0,1,0,0
 12096,18-21,Other,Student,Other,0-1,"0-10,000",0,1,0,0,0,0
@@ -8470,7 +8470,7 @@
 12245,25-29,Other,Data Scientist,Medical/Pharmaceutical,1-2,"70-80,000",1,1,1,1,0,0
 12247,18-21,India,Software Engineer,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
 12249,40-44,Other,Data Engineer,Computers/Technology,5-10,"50-60,000",0,0,0,1,1,0
-12250,35-39,Other,Other,Academics/Education,10-15,"400-500,000",1,0,1,0,0,0
+12250,35-39,Other,Other,Academics/Education,10-15,">250,000",1,0,1,0,0,0
 12252,45-49,Other,Other,Academics/Education,10-15,"40-50,000",0,0,0,0,0,1
 12253,22-24,Spain,Research Scientist,Medical/Pharmaceutical,1-2,"20-30,000",1,0,0,1,0,0
 12254,30-34,Other,Consultant,Medical/Pharmaceutical,1-2,"70-80,000",1,0,1,0,0,0
@@ -8506,7 +8506,7 @@
 12303,25-29,Other,Data Scientist,Academics/Education,4-5,"40-50,000",1,0,0,1,1,0
 12305,35-39,Other,Software Engineer,Computers/Technology,5-10,"70-80,000",0,0,0,0,0,1
 12306,22-24,Russia,Other,Other,3-4,"10-20,000",1,0,0,0,0,0
-12307,35-39,China,Data Scientist,Online Service/Internet-based Services,5-10,"500,000+",1,1,1,1,1,0
+12307,35-39,China,Data Scientist,Online Service/Internet-based Services,5-10,">250,000",1,1,1,1,1,0
 12308,25-29,Other,Other,Other,0-1,"0-10,000",0,0,0,0,0,1
 12310,35-39,Other,Data Analyst,Computers/Technology,5-10,"20-30,000",1,0,1,0,0,0
 12311,55-59,Other,Software Engineer,Other,15+,"50-60,000",0,0,0,0,0,1
@@ -8789,7 +8789,7 @@
 12745,25-29,France,Data Scientist,Accounting/Finance,1-2,"40-50,000",1,0,0,1,0,0
 12746,18-21,Other,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 12748,35-39,Other,Data Scientist,Academics/Education,3-4,"70-80,000",1,0,1,0,0,0
-12750,50-54,United States of America,Other,Accounting/Finance,5-10,"300-400,000",1,0,1,1,0,0
+12750,50-54,United States of America,Other,Accounting/Finance,5-10,">250,000",1,0,1,1,0,0
 12751,50-54,United States of America,Data Analyst,Other,4-5,"100-125,000",1,0,0,0,0,0
 12753,22-24,India,Data Scientist,Other,0-1,"0-10,000",0,0,0,0,0,1
 12754,22-24,Other,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,0,1,1,0
@@ -9020,7 +9020,7 @@
 13110,25-29,United States of America,Student,Academics/Education,0-1,"10-20,000",0,0,0,1,0,0
 13115,25-29,United States of America,Business Analyst,Computers/Technology,1-2,"80-90,000",1,0,1,1,0,0
 13119,18-21,Brazil,Student,Other,2-3,"0-10,000",0,0,0,0,0,1
-13120,45-49,Other,Other,Insurance/Risk Assessment,10-15,"250-300,000",1,0,0,0,0,0
+13120,45-49,Other,Other,Insurance/Risk Assessment,10-15,">250,000",1,0,0,0,0,0
 13121,40-44,United States of America,Data Scientist,Computers/Technology,15+,"150-200,000",1,1,1,1,1,0
 13123,30-34,Other,Other,Other,3-4,"10-20,000",1,0,0,0,0,0
 13125,40-44,Russia,Other,Other,10-15,"10-20,000",1,0,1,0,0,0
@@ -9065,7 +9065,7 @@
 13183,25-29,United States of America,Other,Online Service/Internet-based Services,1-2,"80-90,000",1,0,1,0,0,0
 13184,35-39,United States of America,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 13185,22-24,Germany,Student,Other,4-5,"0-10,000",0,0,0,0,0,1
-13187,40-44,United States of America,Data Scientist,Computers/Technology,2-3,"400-500,000",0,0,0,0,0,1
+13187,40-44,United States of America,Data Scientist,Computers/Technology,2-3,">250,000",0,0,0,0,0,1
 13188,40-44,Other,Research Scientist,Academics/Education,10-15,"60-70,000",1,0,0,1,1,0
 13189,60+,Canada,Software Engineer,Other,10-15,"60-70,000",0,0,0,0,0,1
 13191,25-29,Mexico,Data Engineer,Other,0-1,"10-20,000",0,1,0,0,0,0
@@ -9091,7 +9091,7 @@
 13237,25-29,United States of America,Consultant,Accounting/Finance,3-4,"100-125,000",1,0,0,0,0,0
 13239,25-29,United States of America,Data Scientist,Medical/Pharmaceutical,3-4,"70-80,000",1,0,0,1,0,0
 13240,22-24,Canada,Data Engineer,Accounting/Finance,0-1,"50-60,000",0,0,1,0,0,0
-13241,40-44,Brazil,Other,Other,15+,"300-400,000",1,1,0,0,0,0
+13241,40-44,Brazil,Other,Other,15+,">250,000",1,1,0,0,0,0
 13244,25-29,United States of America,Data Scientist,Insurance/Risk Assessment,0-1,"90-100,000",1,1,0,1,0,0
 13245,45-49,Japan,Research Scientist,Medical/Pharmaceutical,15+,"70-80,000",0,0,0,1,0,0
 13247,30-34,Other,Consultant,Computers/Technology,1-2,"30-40,000",1,0,1,1,0,0
@@ -9181,7 +9181,7 @@
 13401,40-44,Other,Consultant,Other,1-2,"50-60,000",1,0,0,1,1,0
 13402,18-21,Other,Student,Other,1-2,"0-10,000",0,0,0,0,0,1
 13405,18-21,Other,Software Engineer,Computers/Technology,1-2,"0-10,000",1,1,1,0,0,0
-13410,55-59,United States of America,Other,Accounting/Finance,15+,"500,000+",1,0,0,1,0,0
+13410,55-59,United States of America,Other,Accounting/Finance,15+,">250,000",1,0,0,1,0,0
 13412,30-34,Other,Software Engineer,Online Service/Internet-based Services,1-2,"125-150,000",0,1,0,1,1,0
 13418,25-29,Other,Data Scientist,Medical/Pharmaceutical,2-3,"40-50,000",1,0,1,1,0,0
 13419,22-24,Russia,Data Scientist,Academics/Education,2-3,"10-20,000",0,0,0,1,1,0
@@ -9213,7 +9213,7 @@
 13460,25-29,Brazil,Student,Academics/Education,1-2,"0-10,000",0,0,0,1,1,0
 13462,22-24,Other,Data Analyst,Insurance/Risk Assessment,0-1,"10-20,000",1,0,0,0,0,0
 13464,22-24,Japan,Student,Online Service/Internet-based Services,1-2,"0-10,000",1,1,0,0,0,0
-13468,25-29,India,Data Scientist,Computers/Technology,4-5,"500,000+",1,1,1,1,1,0
+13468,25-29,India,Data Scientist,Computers/Technology,4-5,">250,000",1,1,1,1,1,0
 13469,25-29,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Computers/Technology,3-4,"60-70,000",1,1,1,1,0,0
 13470,25-29,Other,Data Scientist,Other,1-2,"30-40,000",1,0,0,0,0,0
 13472,35-39,Other,Data Scientist,Other,5-10,"125-150,000",1,0,0,0,0,0
@@ -9443,7 +9443,7 @@
 13847,30-34,Other,Data Scientist,Medical/Pharmaceutical,1-2,"40-50,000",0,0,1,1,0,0
 13848,25-29,Canada,Student,Other,1-2,"0-10,000",1,1,0,0,0,0
 13849,18-21,Other,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
-13850,60+,United States of America,Other,Academics/Education,,"300-400,000",0,0,0,1,1,0
+13850,60+,United States of America,Other,Academics/Education,,">250,000",0,0,0,1,1,0
 13852,18-21,Other,Data Scientist,Other,0-1,"0-10,000",1,0,0,0,0,0
 13853,40-44,Other,Other,Other,0-1,"40-50,000",0,0,0,0,0,1
 13854,22-24,Other,Data Scientist,Online Service/Internet-based Services,0-1,"0-10,000",1,1,1,0,0,0
@@ -9471,7 +9471,7 @@
 13883,45-49,Spain,Other,Computers/Technology,15+,"30-40,000",1,0,0,1,0,0
 13884,35-39,Other,Data Engineer,Other,2-3,"20-30,000",1,1,1,1,0,0
 13885,35-39,United States of America,Other,Computers/Technology,10-15,"125-150,000",0,0,0,0,0,1
-13886,40-44,United States of America,Other,Online Service/Internet-based Services,3-4,"250-300,000",1,1,0,1,0,0
+13886,40-44,United States of America,Other,Online Service/Internet-based Services,3-4,">250,000",1,1,0,1,0,0
 13887,55-59,United States of America,Other,Other,5-10,"150-200,000",0,0,0,1,0,0
 13888,18-21,Brazil,Data Scientist,Accounting/Finance,1-2,"0-10,000",1,1,1,0,0,0
 13889,30-34,Canada,Data Scientist,Other,0-1,"80-90,000",0,1,0,1,0,0
@@ -9481,7 +9481,7 @@
 13895,45-49,India,Data Scientist,Medical/Pharmaceutical,4-5,"200-250,000",1,1,1,1,1,0
 13897,25-29,Other,Data Scientist,Medical/Pharmaceutical,2-3,"0-10,000",1,0,1,0,0,0
 13898,22-24,United States of America,Data Analyst,Other,0-1,"90-100,000",1,1,1,1,0,0
-13899,35-39,Canada,Data Scientist,Accounting/Finance,10-15,"500,000+",1,1,1,1,0,0
+13899,35-39,Canada,Data Scientist,Accounting/Finance,10-15,">250,000",1,1,1,1,0,0
 13900,45-49,Spain,Data Analyst,Academics/Education,2-3,"30-40,000",1,0,1,0,0,0
 13902,30-34,Italy,Data Scientist,Computers/Technology,3-4,"40-50,000",1,1,1,1,1,0
 13903,25-29,Germany,Other,Computers/Technology,0-1,"40-50,000",0,0,0,1,0,0
@@ -9498,7 +9498,7 @@
 13921,35-39,Other,Data Scientist,Computers/Technology,2-3,"40-50,000",1,1,1,1,1,0
 13923,30-34,Other,Other,Other,5-10,"20-30,000",1,0,0,0,0,0
 13924,25-29,China,Other,Other,2-3,"10-20,000",0,0,0,0,0,1
-13925,50-54,United States of America,Other,Computers/Technology,15+,"500,000+",1,1,1,1,1,0
+13925,50-54,United States of America,Other,Computers/Technology,15+,">250,000",1,1,1,1,1,0
 13927,25-29,Other,Data Analyst,Online Service/Internet-based Services,4-5,"0-10,000",1,0,0,0,0,0
 13928,50-54,United States of America,Data Scientist,Medical/Pharmaceutical,15+,"125-150,000",0,0,0,0,0,1
 13929,40-44,United States of America,Other,Other,0-1,"0-10,000",0,0,0,0,0,1
@@ -9515,11 +9515,11 @@
 13950,35-39,Canada,Other,Computers/Technology,1-2,"100-125,000",0,1,0,1,1,0
 13951,30-34,Other,Other,Academics/Education,5-10,"40-50,000",0,0,0,1,0,0
 13953,35-39,Canada,Data Scientist,Computers/Technology,0-1,"50-60,000",1,0,0,1,1,0
-13954,30-34,United States of America,Other,Accounting/Finance,5-10,"250-300,000",1,0,0,0,0,0
+13954,30-34,United States of America,Other,Accounting/Finance,5-10,">250,000",1,0,0,0,0,0
 13957,30-34,Brazil,Business Analyst,Accounting/Finance,5-10,"40-50,000",1,1,0,0,0,0
 13959,35-39,India,Data Analyst,Other,5-10,"0-10,000",0,0,0,0,0,1
 13960,25-29,Other,Software Engineer,Computers/Technology,1-2,"30-40,000",0,0,0,0,0,1
-13961,35-39,United States of America,Data Scientist,Accounting/Finance,10-15,"300-400,000",1,1,0,1,1,0
+13961,35-39,United States of America,Data Scientist,Accounting/Finance,10-15,">250,000",1,1,0,1,1,0
 13962,25-29,China,Student,Academics/Education,5-10,"0-10,000",0,1,0,1,0,0
 13963,22-24,Other,Student,Computers/Technology,0-1,"0-10,000",0,1,1,0,1,0
 13964,25-29,Canada,Other,Computers/Technology,1-2,"125-150,000",0,0,0,1,1,0
@@ -9681,12 +9681,12 @@
 14230,55-59,United States of America,Data Scientist,Other,,"100-125,000",0,1,0,1,1,0
 14231,22-24,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 14234,30-34,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Accounting/Finance,0-1,"90-100,000",1,1,0,1,0,0
-14235,30-34,India,Consultant,Computers/Technology,2-3,"500,000+",0,0,0,1,0,0
+14235,30-34,India,Consultant,Computers/Technology,2-3,">250,000",0,0,0,1,0,0
 14238,50-54,United States of America,Software Engineer,Academics/Education,15+,"100-125,000",1,0,1,1,0,0
 14241,25-29,India,Data Engineer,Other,3-4,"0-10,000",0,0,0,1,0,0
 14242,22-24,Brazil,Data Scientist,Computers/Technology,1-2,"20-30,000",1,0,0,1,0,0
 14243,50-54,United States of America,Data Scientist,Computers/Technology,10-15,"125-150,000",1,0,0,1,0,0
-14244,55-59,Japan,Consultant,Computers/Technology,15+,"500,000+",1,0,1,0,0,0
+14244,55-59,Japan,Consultant,Computers/Technology,15+,">250,000",1,0,1,0,0,0
 14250,45-49,United States of America,Data Scientist,Accounting/Finance,5-10,"125-150,000",1,0,0,0,0,0
 14252,22-24,United Kingdom of Great Britain and Northern Ireland,Software Engineer,Computers/Technology,1-2,"30-40,000",0,0,0,0,0,1
 14253,22-24,Other,Data Scientist,Other,1-2,"10-20,000",1,0,1,1,1,0
@@ -9729,7 +9729,7 @@
 14302,25-29,Italy,Data Scientist,Computers/Technology,1-2,"125-150,000",1,1,1,1,1,0
 14303,18-21,Canada,Student,Other,5-10,"0-10,000",1,0,0,0,1,0
 14305,40-44,Germany,Data Engineer,Computers/Technology,5-10,"90-100,000",1,1,1,1,0,0
-14308,22-24,India,Data Analyst,Computers/Technology,2-3,"400-500,000",1,0,0,0,0,0
+14308,22-24,India,Data Analyst,Computers/Technology,2-3,">250,000",1,0,0,0,0,0
 14310,18-21,Other,Student,Other,1-2,"0-10,000",1,0,0,0,0,0
 14311,25-29,Spain,Data Scientist,Other,0-1,"20-30,000",0,1,1,0,1,0
 14312,22-24,Other,Other,Academics/Education,1-2,"0-10,000",0,0,0,1,1,0
@@ -9948,7 +9948,7 @@
 14826,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,0
 14827,30-34,Other,Software Engineer,Computers/Technology,3-4,"20-30,000",0,0,0,0,0,1
 14831,30-34,United States of America,Consultant,Other,5-10,"80-90,000",1,0,0,1,1,0
-14833,60+,United States of America,Research Scientist,Computers/Technology,15+,"250-300,000",0,1,0,1,1,0
+14833,60+,United States of America,Research Scientist,Computers/Technology,15+,">250,000",0,1,0,1,1,0
 14837,30-34,Other,Data Scientist,Academics/Education,2-3,"0-10,000",0,0,0,0,0,0
 14840,40-44,United States of America,Data Analyst,Computers/Technology,4-5,"70-80,000",1,0,0,0,0,0
 14842,30-34,India,Data Analyst,Other,2-3,"125-150,000",1,1,0,0,0,0
@@ -10048,7 +10048,7 @@
 15091,60+,United States of America,Other,Other,4-5,"80-90,000",1,0,0,0,0,0
 15092,35-39,India,Research Scientist,Computers/Technology,1-2,"90-100,000",1,1,1,1,1,0
 15093,45-49,India,Other,Other,3-4,"90-100,000",1,1,1,1,1,0
-15099,30-34,United States of America,Data Scientist,Other,0-1,"300-400,000",1,0,0,0,0,0
+15099,30-34,United States of America,Data Scientist,Other,0-1,">250,000",1,0,0,0,0,0
 15100,22-24,Brazil,Student,Other,0-1,"0-10,000",0,0,0,0,0,0
 15107,22-24,United States of America,Student,Other,,"0-10,000",0,0,0,0,1,0
 15108,25-29,United States of America,Data Analyst,Other,3-4,"70-80,000",1,1,1,1,0,0
@@ -10057,7 +10057,7 @@
 15116,55-59,Other,Software Engineer,Computers/Technology,15+,"70-80,000",0,0,0,0,0,1
 15117,45-49,Canada,Consultant,Computers/Technology,15+,"125-150,000",1,0,0,0,1,0
 15118,25-29,United States of America,Research Scientist,Other,3-4,"90-100,000",0,0,0,1,0,0
-15121,30-34,United States of America,Data Engineer,Computers/Technology,5-10,"300-400,000",1,0,1,0,0,0
+15121,30-34,United States of America,Data Engineer,Computers/Technology,5-10,">250,000",1,0,1,0,0,0
 15126,18-21,Canada,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 15132,40-44,United States of America,Software Engineer,Online Service/Internet-based Services,3-4,"50-60,000",0,0,0,0,0,1
 15135,40-44,Other,Data Scientist,Academics/Education,10-15,"10-20,000",1,0,0,1,0,0
@@ -10103,7 +10103,7 @@
 15256,22-24,United States of America,Software Engineer,Other,2-3,"0-10,000",1,0,0,1,0,0
 15259,30-34,India,Software Engineer,Computers/Technology,10-15,"30-40,000",0,0,0,0,0,1
 15261,35-39,United States of America,Other,Other,10-15,"100-125,000",0,0,0,0,0,1
-15262,30-34,India,Data Scientist,Other,0-1,"300-400,000",0,0,0,0,1,0
+15262,30-34,India,Data Scientist,Other,0-1,">250,000",0,0,0,0,1,0
 15263,40-44,United States of America,Software Engineer,Computers/Technology,15+,"150-200,000",1,0,0,0,0,0
 15266,25-29,India,Data Scientist,Computers/Technology,4-5,"10-20,000",1,1,1,1,1,0
 15273,40-44,United States of America,Software Engineer,Accounting/Finance,10-15,"125-150,000",0,0,0,0,0,0
@@ -10143,7 +10143,7 @@
 15386,22-24,Other,Student,Accounting/Finance,2-3,"0-10,000",0,0,0,0,1,0
 15387,22-24,China,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 15390,25-29,India,Research Scientist,Government/Public Service,3-4,"0-10,000",0,1,0,0,0,0
-15391,35-39,Brazil,Other,Computers/Technology,2-3,"250-300,000",1,1,1,1,1,0
+15391,35-39,Brazil,Other,Computers/Technology,2-3,">250,000",1,1,1,1,1,0
 15392,50-54,United States of America,Consultant,Computers/Technology,15+,"100-125,000",1,1,0,0,1,0
 15393,22-24,China,Student,Other,15+,"0-10,000",0,0,0,0,0,0
 15397,30-34,United States of America,Data Scientist,Insurance/Risk Assessment,0-1,"50-60,000",1,0,0,0,1,0
@@ -10235,7 +10235,7 @@
 15658,30-34,United Kingdom of Great Britain and Northern Ireland,Data Scientist,Computers/Technology,5-10,"125-150,000",1,0,1,1,1,0
 15664,25-29,Canada,Data Scientist,Online Service/Internet-based Services,1-2,"60-70,000",1,1,0,1,0,0
 15665,40-44,Canada,Business Analyst,Other,5-10,"70-80,000",0,0,0,0,0,1
-15667,35-39,United States of America,Other,Other,5-10,"500,000+",1,0,1,1,0,0
+15667,35-39,United States of America,Other,Other,5-10,">250,000",1,0,1,1,0,0
 15668,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 15676,35-39,United States of America,Research Scientist,Computers/Technology,0-1,"125-150,000",1,1,0,1,1,0
 15686,35-39,China,Other,Other,5-10,"150-200,000",1,0,0,0,0,0
@@ -10260,7 +10260,7 @@
 15737,25-29,United States of America,Data Scientist,Computers/Technology,0-1,"100-125,000",0,1,1,1,1,0
 15744,25-29,United States of America,Data Analyst,Other,0-1,"90-100,000",1,1,0,0,0,0
 15747,25-29,Other,Software Engineer,Other,3-4,"10-20,000",1,0,1,0,0,0
-15748,50-54,United States of America,Other,Accounting/Finance,0-1,"250-300,000",1,1,1,1,0,0
+15748,50-54,United States of America,Other,Accounting/Finance,0-1,">250,000",1,1,1,1,0,0
 15749,18-21,Other,Student,Other,2-3,"0-10,000",1,0,1,0,0,0
 15757,22-24,United States of America,Software Engineer,Other,1-2,"20-30,000",1,0,1,0,0,0
 15758,22-24,India,Consultant,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
@@ -10296,7 +10296,7 @@
 15859,22-24,United States of America,Other,Online Service/Internet-based Services,0-1,"150-200,000",1,1,1,1,0,0
 15861,50-54,United States of America,Other,Government/Public Service,15+,"100-125,000",0,0,0,0,0,1
 15867,45-49,Canada,Data Scientist,Computers/Technology,3-4,"125-150,000",0,0,0,1,1,0
-15869,30-34,United States of America,Software Engineer,Other,10-15,"500,000+",1,1,1,1,1,0
+15869,30-34,United States of America,Software Engineer,Other,10-15,">250,000",1,1,1,1,1,0
 15871,30-34,United States of America,Other,Other,5-10,"125-150,000",1,0,0,0,0,0
 15876,45-49,United States of America,Data Scientist,Insurance/Risk Assessment,3-4,"150-200,000",0,0,1,1,0,0
 15882,40-44,United States of America,Other,Other,2-3,"50-60,000",1,0,0,0,0,0
@@ -10342,7 +10342,7 @@
 16000,22-24,India,Data Scientist,Computers/Technology,1-2,"20-30,000",0,0,0,0,1,0
 16003,35-39,India,Business Analyst,Computers/Technology,5-10,"30-40,000",0,0,0,0,0,1
 16006,30-34,United States of America,Research Scientist,Academics/Education,10-15,"90-100,000",1,1,1,1,1,0
-16007,18-21,United States of America,Software Engineer,Computers/Technology,2-3,"250-300,000",1,1,1,1,1,0
+16007,18-21,United States of America,Software Engineer,Computers/Technology,2-3,">250,000",1,1,1,1,1,0
 16008,25-29,United States of America,Student,Other,2-3,"20-30,000",0,0,0,0,0,1
 16009,30-34,United States of America,Data Scientist,Other,0-1,"100-125,000",1,1,1,1,0,0
 16010,22-24,India,Student,Computers/Technology,0-1,"0-10,000",0,0,0,0,1,0
@@ -10394,7 +10394,7 @@
 16149,18-21,United States of America,Student,Other,0-1,"0-10,000",0,0,0,0,0,0
 16150,22-24,Russia,Data Analyst,Other,0-1,"0-10,000",0,0,0,1,0,0
 16151,25-29,United States of America,Data Analyst,Computers/Technology,0-1,"50-60,000",1,0,0,0,0,0
-16152,60+,United States of America,Other,Computers/Technology,15+,"500,000+",0,1,0,1,1,1
+16152,60+,United States of America,Other,Computers/Technology,15+,">250,000",0,1,0,1,1,1
 16155,30-34,United States of America,Consultant,Government/Public Service,1-2,"125-150,000",1,0,0,0,0,0
 16156,35-39,United States of America,Research Scientist,Academics/Education,10-15,"10-20,000",1,0,0,0,0,0
 16158,22-24,United States of America,Consultant,Computers/Technology,0-1,"80-90,000",0,0,0,0,0,1
@@ -10511,7 +10511,7 @@
 16493,30-34,Brazil,Software Engineer,Academics/Education,5-10,"10-20,000",1,0,1,0,0,0
 16495,35-39,India,Other,Other,5-10,"40-50,000",1,0,0,0,0,0
 16497,25-29,Brazil,Data Scientist,Other,5-10,"10-20,000",1,0,0,1,1,0
-16498,35-39,India,Other,Other,10-15,"500,000+",1,1,1,0,0,0
+16498,35-39,India,Other,Other,10-15,">250,000",1,1,1,0,0,0
 16499,40-44,Canada,Data Scientist,Computers/Technology,5-10,"125-150,000",1,1,1,1,0,0
 16506,22-24,Other,Student,Other,4-5,"0-10,000",1,1,0,1,1,0
 16507,22-24,Russia,Data Scientist,Accounting/Finance,3-4,"10-20,000",1,0,1,0,0,0
@@ -10612,7 +10612,7 @@
 16780,55-59,United States of America,Data Analyst,Other,,"100-125,000",0,0,0,0,0,1
 16781,30-34,United States of America,Other,Other,5-10,"0-10,000",1,0,0,0,0,0
 16787,18-21,Brazil,Business Analyst,Academics/Education,1-2,"0-10,000",1,1,1,0,1,0
-16788,40-44,United States of America,Other,Computers/Technology,2-3,"250-300,000",1,1,1,1,1,0
+16788,40-44,United States of America,Other,Computers/Technology,2-3,">250,000",1,1,1,1,1,0
 16789,30-34,Other,Business Analyst,Computers/Technology,1-2,"0-10,000",0,0,0,1,0,0
 16791,40-44,United States of America,Other,Computers/Technology,15+,"90-100,000",0,0,0,0,0,1
 16796,25-29,United States of America,Data Analyst,Computers/Technology,2-3,"50-60,000",0,0,0,0,0,1
@@ -10627,7 +10627,7 @@
 16820,30-34,India,Business Analyst,Insurance/Risk Assessment,0-1,"40-50,000",1,1,1,1,1,0
 16822,35-39,United States of America,Data Analyst,Online Service/Internet-based Services,0-1,"60-70,000",1,0,0,0,0,0
 16827,18-21,China,Student,Other,1-2,"10-20,000",0,0,0,0,0,1
-16831,22-24,India,Data Analyst,Computers/Technology,0-1,"300-400,000",1,0,0,0,0,0
+16831,22-24,India,Data Analyst,Computers/Technology,0-1,">250,000",1,0,0,0,0,0
 16832,22-24,China,Data Analyst,Computers/Technology,0-1,"0-10,000",1,0,0,0,0,0
 16833,30-34,Other,Data Analyst,Other,5-10,"10-20,000",0,0,0,0,0,0
 16847,25-29,India,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,0,0,0,0
@@ -10670,7 +10670,7 @@
 16951,22-24,China,Other,Computers/Technology,2-3,"20-30,000",0,0,0,1,0,0
 16953,50-54,United States of America,Data Scientist,Other,1-2,"100-125,000",1,0,0,1,1,0
 16954,60+,Brazil,Consultant,Computers/Technology,,"50-60,000",0,0,0,1,0,0
-16959,25-29,China,Data Engineer,Computers/Technology,1-2,"250-300,000",0,1,0,1,0,0
+16959,25-29,China,Data Engineer,Computers/Technology,1-2,">250,000",0,1,0,1,0,0
 16960,25-29,United States of America,Business Analyst,Academics/Education,1-2,"60-70,000",1,0,0,0,0,0
 16961,22-24,China,Software Engineer,Computers/Technology,1-2,"10-20,000",0,0,0,0,0,1
 16970,30-34,India,Other,Computers/Technology,5-10,"20-30,000",1,1,0,0,0,0
@@ -10719,9 +10719,9 @@
 17086,25-29,India,Data Analyst,Other,3-4,"10-20,000",0,0,0,0,0,0
 17087,25-29,Brazil,Other,Other,5-10,"10-20,000",1,1,1,1,1,0
 17089,30-34,Mexico,Data Scientist,Other,1-2,"10-20,000",1,1,0,0,1,0
-17090,25-29,Canada,Consultant,Other,5-10,"250-300,000",1,1,1,1,1,0
+17090,25-29,Canada,Consultant,Other,5-10,">250,000",1,1,1,1,1,0
 17095,30-34,United States of America,Consultant,Other,1-2,"100-125,000",1,0,0,1,0,0
-17097,25-29,United States of America,Data Scientist,Computers/Technology,10-15,"250-300,000",0,0,0,0,0,0
+17097,25-29,United States of America,Data Scientist,Computers/Technology,10-15,">250,000",0,0,0,0,0,0
 17100,35-39,India,Other,Academics/Education,10-15,"10-20,000",0,0,0,0,0,1
 17105,35-39,Other,Other,Academics/Education,5-10,"100-125,000",1,0,1,1,1,0
 17108,18-21,India,Student,Other,,"0-10,000",0,0,0,0,0,0
@@ -10828,7 +10828,7 @@
 17393,25-29,Brazil,Software Engineer,Online Service/Internet-based Services,3-4,"10-20,000",1,0,0,0,0,0
 17399,25-29,United States of America,Software Engineer,Other,2-3,"40-50,000",1,0,0,0,0,0
 17407,22-24,Brazil,Data Scientist,Computers/Technology,0-1,"0-10,000",0,0,0,0,0,1
-17412,45-49,Australia,Other,Computers/Technology,15+,"250-300,000",0,1,1,1,0,0
+17412,45-49,Australia,Other,Computers/Technology,15+,">250,000",0,1,1,1,0,0
 17415,30-34,India,Software Engineer,Other,5-10,"50-60,000",0,0,0,0,0,1
 17419,35-39,United States of America,Data Scientist,Computers/Technology,3-4,"125-150,000",1,1,1,1,0,0
 17421,30-34,Canada,Software Engineer,Insurance/Risk Assessment,10-15,"100-125,000",1,0,0,1,0,0
@@ -10958,8 +10958,8 @@
 17763,30-34,United States of America,Research Scientist,Academics/Education,2-3,"70-80,000",1,0,0,1,0,0
 17767,25-29,Brazil,Data Scientist,Accounting/Finance,0-1,"10-20,000",0,1,1,1,0,0
 17770,22-24,Other,Other,Computers/Technology,0-1,"0-10,000",1,0,0,0,0,0
-17772,50-54,United States of America,Other,Medical/Pharmaceutical,15+,"250-300,000",0,0,0,0,0,1
-17775,22-24,India,Software Engineer,Computers/Technology,1-2,"250-300,000",1,0,0,0,0,0
+17772,50-54,United States of America,Other,Medical/Pharmaceutical,15+,">250,000",0,0,0,0,0,1
+17775,22-24,India,Software Engineer,Computers/Technology,1-2,">250,000",1,0,0,0,0,0
 17779,50-54,United States of America,Data Engineer,Computers/Technology,5-10,"100-125,000",1,0,1,1,0,0
 17781,30-34,United States of America,Software Engineer,Accounting/Finance,5-10,"90-100,000",1,0,0,0,0,0
 17785,25-29,United States of America,Software Engineer,Academics/Education,2-3,"125-150,000",1,0,1,0,0,0
@@ -11068,7 +11068,7 @@
 18111,30-34,Other,Data Scientist,Computers/Technology,3-4,"200-250,000",0,0,0,1,0,0
 18113,22-24,United States of America,Student,Other,0-1,"0-10,000",1,1,1,1,1,0
 18119,22-24,United States of America,Other,Medical/Pharmaceutical,0-1,"70-80,000",0,0,1,0,0,0
-18120,25-29,Other,Data Scientist,Computers/Technology,2-3,"500,000+",0,0,0,1,0,0
+18120,25-29,Other,Data Scientist,Computers/Technology,2-3,">250,000",0,0,0,1,0,0
 18121,25-29,United States of America,Research Scientist,Academics/Education,1-2,"40-50,000",0,0,0,1,0,0
 18125,25-29,India,Data Analyst,Other,2-3,"0-10,000",1,1,0,0,0,0
 18130,35-39,United States of America,Software Engineer,Computers/Technology,10-15,"150-200,000",1,1,1,1,0,0
@@ -11096,7 +11096,7 @@
 18183,25-29,United Kingdom of Great Britain and Northern Ireland,Research Scientist,Academics/Education,2-3,"20-30,000",0,0,0,0,0,1
 18184,25-29,United States of America,Other,Computers/Technology,1-2,"90-100,000",1,1,0,1,0,0
 18189,25-29,China,Data Analyst,Computers/Technology,1-2,"10-20,000",0,0,0,0,0,0
-18190,35-39,United States of America,Other,Computers/Technology,3-4,"500,000+",1,1,0,1,1,0
+18190,35-39,United States of America,Other,Computers/Technology,3-4,">250,000",1,1,0,1,1,0
 18191,25-29,Germany,Software Engineer,Computers/Technology,1-2,"60-70,000",0,0,0,0,0,0
 18197,22-24,United States of America,Software Engineer,Computers/Technology,2-3,"100-125,000",0,0,0,0,0,1
 18198,30-34,Other,Other,Computers/Technology,10-15,"0-10,000",0,0,0,1,0,0
@@ -11105,7 +11105,7 @@
 18207,60+,United States of America,Software Engineer,Academics/Education,,"60-70,000",1,0,0,0,0,0
 18208,35-39,United States of America,Data Analyst,Insurance/Risk Assessment,10-15,"70-80,000",1,0,0,1,0,0
 18216,25-29,India,Other,Accounting/Finance,5-10,"10-20,000",0,0,0,0,0,1
-18217,35-39,United States of America,Data Scientist,Accounting/Finance,4-5,"300-400,000",0,1,0,1,0,0
+18217,35-39,United States of America,Data Scientist,Accounting/Finance,4-5,">250,000",0,1,0,1,0,0
 18221,22-24,United States of America,Software Engineer,Online Service/Internet-based Services,1-2,"30-40,000",0,0,0,0,0,1
 18223,22-24,United States of America,Other,Academics/Education,1-2,"10-20,000",0,0,0,0,0,1
 18224,30-34,United States of America,Consultant,Other,0-1,"60-70,000",0,0,0,0,0,1
@@ -11425,7 +11425,7 @@
 19211,22-24,Other,Software Engineer,Academics/Education,2-3,"10-20,000",0,0,0,1,0,0
 19212,40-44,Germany,Other,Academics/Education,1-2,"50-60,000",1,0,0,1,0,0
 19216,25-29,France,Software Engineer,Computers/Technology,2-3,"50-60,000",0,0,1,1,0,0
-19222,22-24,India,Other,Government/Public Service,1-2,"250-300,000",0,0,0,1,0,0
+19222,22-24,India,Other,Government/Public Service,1-2,">250,000",0,0,0,1,0,0
 19223,22-24,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,0
 19224,25-29,United Kingdom of Great Britain and Northern Ireland,Business Analyst,Government/Public Service,0-1,"30-40,000",1,0,0,0,0,0
 19229,45-49,Japan,Other,Computers/Technology,5-10,"70-80,000",0,0,0,1,0,0
@@ -11450,7 +11450,7 @@
 19313,18-21,India,Student,Other,0-1,"0-10,000",0,0,0,1,0,0
 19316,22-24,Spain,Consultant,Computers/Technology,0-1,"20-30,000",0,0,0,0,0,1
 19324,22-24,India,Data Analyst,Other,2-3,"20-30,000",1,0,1,1,0,0
-19333,35-39,United States of America,Software Engineer,Computers/Technology,5-10,"500,000+",0,0,0,0,1,0
+19333,35-39,United States of America,Software Engineer,Computers/Technology,5-10,">250,000",0,0,0,0,1,0
 19337,22-24,Other,Research Scientist,Computers/Technology,0-1,"0-10,000",0,1,0,0,0,0
 19338,18-21,Other,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 19339,30-34,Germany,Research Scientist,Academics/Education,3-4,"60-70,000",1,0,0,0,1,0
@@ -11500,8 +11500,8 @@
 19499,22-24,India,Data Analyst,Computers/Technology,0-1,"10-20,000",0,0,0,0,0,1
 19500,18-21,Other,Student,Other,2-3,"0-10,000",0,0,0,0,0,1
 19504,30-34,France,Research Scientist,Other,2-3,"30-40,000",0,0,0,0,0,1
-19506,30-34,India,Data Scientist,Computers/Technology,10-15,"500,000+",1,0,0,0,0,0
-19510,25-29,Russia,Other,Computers/Technology,1-2,"250-300,000",1,1,1,1,0,0
+19506,30-34,India,Data Scientist,Computers/Technology,10-15,">250,000",1,0,0,0,0,0
+19510,25-29,Russia,Other,Computers/Technology,1-2,">250,000",1,1,1,1,0,0
 19517,35-39,Other,Software Engineer,Computers/Technology,10-15,"50-60,000",0,0,0,0,0,1
 19522,18-21,Russia,Data Engineer,Other,0-1,"0-10,000",0,0,0,0,1,0
 19526,45-49,Spain,Other,Academics/Education,5-10,"30-40,000",0,0,0,0,0,0
@@ -11575,7 +11575,7 @@
 19727,35-39,Other,Data Scientist,Other,0-1,"90-100,000",1,0,0,1,0,0
 19728,22-24,Australia,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 19733,40-44,Spain,Other,Online Service/Internet-based Services,3-4,"90-100,000",0,0,0,0,0,1
-19734,50-54,Australia,Other,Other,15+,"500,000+",1,0,0,0,0,0
+19734,50-54,Australia,Other,Other,15+,">250,000",1,0,0,0,0,0
 19738,35-39,Australia,Consultant,Other,5-10,"200-250,000",1,1,1,1,0,0
 19740,35-39,Other,Other,Accounting/Finance,5-10,"30-40,000",1,0,0,0,0,0
 19748,22-24,Other,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
@@ -11670,7 +11670,7 @@
 20034,30-34,Other,Data Engineer,Accounting/Finance,5-10,"60-70,000",0,0,1,0,0,0
 20044,25-29,Other,Software Engineer,Other,1-2,"0-10,000",0,0,1,0,0,0
 20049,40-44,Other,Consultant,Other,5-10,"50-60,000",1,0,0,0,0,0
-20051,35-39,Other,Other,Computers/Technology,10-15,"500,000+",1,0,0,1,0,0
+20051,35-39,Other,Other,Computers/Technology,10-15,">250,000",1,0,0,1,0,0
 20053,22-24,India,Data Analyst,Computers/Technology,2-3,"10-20,000",1,0,1,0,0,1
 20056,45-49,India,Other,Computers/Technology,15+,"0-10,000",1,0,0,1,1,0
 20061,18-21,United Kingdom of Great Britain and Northern Ireland,Student,Other,,"0-10,000",0,0,0,0,0,0
@@ -11773,7 +11773,7 @@
 20323,18-21,China,Other,Other,2-3,"0-10,000",1,1,1,1,1,0
 20325,25-29,Other,Student,Academics/Education,,"0-10,000",0,0,0,0,0,1
 20327,25-29,Russia,Research Scientist,Computers/Technology,1-2,"10-20,000",0,1,0,0,1,0
-20328,55-59,India,Other,Computers/Technology,4-5,"250-300,000",0,0,0,0,0,1
+20328,55-59,India,Other,Computers/Technology,4-5,">250,000",0,0,0,0,0,1
 20329,22-24,India,Student,Other,0-1,"0-10,000",0,0,0,0,0,0
 20330,45-49,Other,Software Engineer,Academics/Education,10-15,"20-30,000",0,0,0,1,0,0
 20331,25-29,Japan,Student,Other,5-10,"0-10,000",0,0,0,0,0,0
@@ -11947,7 +11947,7 @@
 20869,30-34,Other,Software Engineer,Computers/Technology,2-3,"10-20,000",0,0,0,1,0,0
 20871,22-24,China,Other,Other,1-2,"30-40,000",0,0,0,1,0,0
 20874,22-24,Japan,Student,Other,1-2,"0-10,000",0,0,0,0,1,0
-20877,22-24,India,Software Engineer,Computers/Technology,0-1,"300-400,000",0,0,0,0,0,1
+20877,22-24,India,Software Engineer,Computers/Technology,0-1,">250,000",0,0,0,0,0,1
 20878,35-39,Germany,Consultant,Computers/Technology,15+,"50-60,000",0,0,0,0,0,1
 20879,30-34,Other,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 20881,40-44,China,Research Scientist,Academics/Education,10-15,"0-10,000",0,0,0,0,0,1
@@ -11985,7 +11985,7 @@
 20991,30-34,Germany,Business Analyst,Other,1-2,"60-70,000",1,0,0,0,0,0
 20993,22-24,India,Data Analyst,Computers/Technology,1-2,"0-10,000",1,1,1,0,0,0
 20996,18-21,Other,Other,Other,0-1,"0-10,000",0,0,0,0,0,1
-21000,22-24,India,Data Scientist,Other,0-1,"250-300,000",1,0,0,0,0,0
+21000,22-24,India,Data Scientist,Other,0-1,">250,000",1,0,0,0,0,0
 21003,55-59,Russia,Other,Computers/Technology,15+,"10-20,000",1,0,0,0,0,0
 21007,22-24,Other,Data Engineer,Other,0-1,"40-50,000",0,0,0,0,0,0
 21008,22-24,India,Student,Other,1-2,"0-10,000",1,1,0,0,0,0
@@ -12152,7 +12152,7 @@
 21538,25-29,India,Software Engineer,Computers/Technology,3-4,"0-10,000",1,0,0,0,0,0
 21540,22-24,India,Other,Online Service/Internet-based Services,1-2,"0-10,000",1,0,0,0,1,0
 21543,22-24,Other,Data Engineer,Other,0-1,"10-20,000",1,0,0,0,0,0
-21549,25-29,India,Data Scientist,Other,2-3,"400-500,000",0,0,0,0,1,0
+21549,25-29,India,Data Scientist,Other,2-3,">250,000",0,0,0,0,1,0
 21553,25-29,China,Data Engineer,Other,0-1,"0-10,000",1,0,0,0,0,0
 21564,25-29,Japan,Data Scientist,Computers/Technology,4-5,"60-70,000",1,0,0,1,1,0
 21565,30-34,Japan,Software Engineer,Other,5-10,"60-70,000",0,0,0,0,0,0
@@ -12266,7 +12266,7 @@
 21912,25-29,Other,Other,Academics/Education,2-3,"0-10,000",0,0,0,0,1,0
 21913,25-29,India,Data Analyst,Other,0-1,"0-10,000",1,0,0,0,0,0
 21914,30-34,Other,Software Engineer,Computers/Technology,3-4,"80-90,000",0,1,0,0,0,0
-21919,35-39,Japan,Software Engineer,Government/Public Service,10-15,"400-500,000",0,0,0,0,0,1
+21919,35-39,Japan,Software Engineer,Government/Public Service,10-15,">250,000",0,0,0,0,0,1
 21922,22-24,India,Other,Computers/Technology,2-3,"125-150,000",0,0,0,0,0,1
 21923,35-39,Other,Software Engineer,Computers/Technology,5-10,"80-90,000",0,0,0,0,0,1
 21924,35-39,Australia,Consultant,Accounting/Finance,5-10,"150-200,000",1,0,1,0,0,0
@@ -12398,7 +12398,7 @@
 22250,18-21,India,Software Engineer,Other,0-1,"0-10,000",1,0,0,0,0,0
 22251,25-29,Other,Software Engineer,Online Service/Internet-based Services,4-5,"40-50,000",0,0,0,0,0,1
 22256,40-44,Japan,Software Engineer,Other,5-10,"80-90,000",0,1,0,1,1,0
-22264,25-29,India,Business Analyst,Other,5-10,"500,000+",1,0,0,0,0,0
+22264,25-29,India,Business Analyst,Other,5-10,">250,000",1,0,0,0,0,0
 22267,30-34,Other,Data Scientist,Computers/Technology,0-1,"90-100,000",0,1,0,1,1,0
 22276,22-24,India,Data Scientist,Other,1-2,"10-20,000",0,0,0,0,0,0
 22278,22-24,Germany,Business Analyst,Government/Public Service,0-1,"10-20,000",1,0,1,0,0,0
@@ -12470,7 +12470,7 @@
 22489,30-34,India,Business Analyst,Computers/Technology,3-4,"10-20,000",1,0,0,0,0,0
 22490,25-29,India,Other,Other,2-3,"10-20,000",1,0,1,0,0,0
 22492,22-24,India,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,0,0,0,1
-22495,22-24,Other,Data Scientist,Computers/Technology,0-1,"300-400,000",1,0,0,1,1,0
+22495,22-24,Other,Data Scientist,Computers/Technology,0-1,">250,000",1,0,0,1,1,0
 22497,22-24,Other,Software Engineer,Computers/Technology,2-3,"30-40,000",0,0,0,1,0,0
 22499,25-29,Germany,Software Engineer,Other,3-4,"60-70,000",0,0,1,0,0,0
 22501,25-29,Germany,Data Scientist,Other,3-4,"70-80,000",1,1,0,1,1,0
@@ -12503,7 +12503,7 @@
 22576,30-34,India,Other,Other,5-10,"20-30,000",1,0,0,0,0,0
 22582,30-34,Japan,Software Engineer,Academics/Education,4-5,"20-30,000",1,0,0,0,0,0
 22589,50-54,Japan,Other,Computers/Technology,5-10,"100-125,000",0,1,0,0,0,0
-22591,25-29,Other,Other,Academics/Education,0-1,"500,000+",0,0,0,0,0,1
+22591,25-29,Other,Other,Academics/Education,0-1,">250,000",0,0,0,0,0,1
 22593,25-29,Australia,Business Analyst,Other,2-3,"40-50,000",1,0,0,0,0,0
 22594,40-44,Other,Data Analyst,Medical/Pharmaceutical,3-4,"20-30,000",1,0,0,1,0,0
 22595,18-21,India,Student,Academics/Education,0-1,"0-10,000",0,0,0,0,0,1
@@ -12680,7 +12680,7 @@
 23091,30-34,Other,Software Engineer,Computers/Technology,1-2,"0-10,000",0,0,0,0,0,1
 23096,25-29,Russia,Other,Computers/Technology,4-5,"10-20,000",0,0,0,1,1,0
 23097,22-24,Other,Data Scientist,Computers/Technology,1-2,"0-10,000",0,0,0,0,1,1
-23098,30-34,Germany,Consultant,Other,3-4,"500,000+",1,1,1,1,1,0
+23098,30-34,Germany,Consultant,Other,3-4,">250,000",1,1,1,1,1,0
 23099,22-24,France,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 23100,30-34,Other,Research Scientist,Computers/Technology,5-10,"150-200,000",0,1,0,1,1,0
 23102,18-21,Russia,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
@@ -12791,7 +12791,7 @@
 23357,18-21,Other,Data Scientist,Other,1-2,"0-10,000",0,0,0,1,1,0
 23359,22-24,United Kingdom of Great Britain and Northern Ireland,Software Engineer,Online Service/Internet-based Services,1-2,"20-30,000",1,0,0,0,1,0
 23361,25-29,Spain,Data Scientist,Other,3-4,"40-50,000",1,0,1,1,0,0
-23364,25-29,Other,Other,Other,1-2,"300-400,000",1,0,1,0,0,0
+23364,25-29,Other,Other,Other,1-2,">250,000",1,0,1,0,0,0
 23366,25-29,Spain,Data Scientist,Accounting/Finance,0-1,"30-40,000",1,1,0,1,1,0
 23370,30-34,Other,Other,Computers/Technology,0-1,"60-70,000",0,0,0,0,0,1
 23379,35-39,Other,Software Engineer,Computers/Technology,15+,"125-150,000",0,0,0,0,0,1
@@ -12953,5 +12953,5 @@
 23842,18-21,Russia,Student,Other,0-1,"0-10,000",0,0,0,0,0,1
 23844,30-34,Other,Software Engineer,Computers/Technology,10-15,"90-100,000",1,0,0,1,0,0
 23854,30-34,Other,Other,Academics/Education,5-10,"10-20,000",0,0,0,0,0,0
-23855,45-49,France,Other,Computers/Technology,5-10,"250-300,000",0,1,0,1,1,0
+23855,45-49,France,Other,Computers/Technology,5-10,">250,000",0,1,0,1,1,0
 23857,22-24,Other,Software Engineer,Computers/Technology,0-1,"10-20,000",1,1,1,1,0,0
