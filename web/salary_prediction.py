@@ -44,7 +44,7 @@ class SalaryModel:
         sample['role_' + role] = 1
         sample['years_experience_' + experience] = 1
 
-        print(q11)
+        print(q11) #TODO
         for value in q11:
             sample[self.q11_map[value]] = 1
         return sample
