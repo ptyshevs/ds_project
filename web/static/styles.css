@@ -1,5 +1,44 @@
 #content {
     min-height: 100vh;
-    background-image: url('images/ds_bg-min.jpg');
-    background-size: cover;
+    /*background-image: url('images/ds_bg-min.jpg');*/
+    /*background-size: cover;*/
+}
+
+.btn-primary, .btn-primary:visited {
+    background-color: #753193;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #fff;
+    border-color: #753193;
+    color: #753193;
+}
+
+.question-box {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 20px 0;
+    background-color: rgba(117, 49, 147, .2);
+    color: #000;
+}
+
+.answer-box {
+    position: relative;
+    background-color: #753193;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 0 20px;
+    color: #fff;
+}
+
+#salary_distribution {
+    height: 400px;
+    background-color: #fff;
+}
+
+.salary {
+    display: block;
 }
