@@ -7,7 +7,6 @@ bp = Blueprint('form', __name__, url_prefix='')
 
 @bp.route('/')
 def hello():
-    request.params['age']
     return render_template('hello.html')
 
 
