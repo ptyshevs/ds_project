@@ -1,24 +1,24 @@
-const ageBtn = $('#age-btn');
+const ageInput = $('input[type=radio][name=age]');
 const ageContainer = $('#age');
 const countryContainer = $('#country');
-const countryBtn = $('#country-btn');
+const countryInput = $('input[type=radio][name=country]');
 const industryContainer = $('#industry');
-const industryBtn = $('#industry-btn');
+const industryInput = $('input[type=radio][name=industry]');
 const roleContainer = $('#role');
-const roleBtn = $('#role-btn');
+const roleInput = $('input[type=radio][name=role]');
 const experienceContainer = $('#experience');
-const experienceBtn = $('#experience-btn');
+const experienceInput = $('input[type=radio][name=experience]');
 const activitiesContainer = $('#activities');
 
-function assign(btn, toHide, toShow) {
-    btn.click(function () {
+function assign(trigger, toHide, toShow) {
+    trigger.change(function () {
         toHide.hide();
         toShow.removeAttr('hidden');
     });
 }
 
-assign(ageBtn, ageContainer, countryContainer);
-assign(countryBtn, countryContainer, industryContainer);
-assign(industryBtn, industryContainer, roleContainer);
-assign(roleBtn, roleContainer, experienceContainer);
-assign(experienceBtn, experienceContainer, activitiesContainer);
+assign(ageInput, ageContainer, countryContainer);
+assign(countryInput, countryContainer, industryContainer);
+assign(industryInput, industryContainer, roleContainer);
+assign(roleInput, roleContainer, experienceContainer);
+assign(experienceInput, experienceContainer, activitiesContainer);

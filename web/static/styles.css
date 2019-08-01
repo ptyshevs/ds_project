@@ -27,6 +27,7 @@
 }
 
 .answer-box {
+    padding: 0 30px 30px 30px;
     position: relative;
     padding: 15px 30px;
     background-color: #753193;
