@@ -1,6 +1,5 @@
 from flask import (Flask, render_template, request)
-
-from salary_prediction import SalaryModel
+from web.salary_prediction import SalaryModel
 
 app = Flask(__name__)
 model = SalaryModel()

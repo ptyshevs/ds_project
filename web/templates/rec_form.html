@@ -2,130 +2,130 @@
 {% block title %}Recommendation form!{% endblock %}
 {% block content %}
     <form id="rec_form" method="post" action="">
-        <section id="primary_tool_container" class="container active">
-            <div class="d-flex flex-row mt-5 justify-content-start">
-                <div class="question-box col-md-6">
-                    <p>Ok, let’s have a look at your skills. Please fill in your current knowledge in the following.</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row justify-content-start">
-                <div class="question-box col-md-6">
-                    <p>What is the primary tool that you use at work or school to analyze data?</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row justify-content-end">
-                <div class="answer-box col-md-5">
-                    <p>I use</p>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox"
-                               value="Advanced statistical software (SPSS, SAS, etc.)" id="advanced_statistical">
-                        <label class="form-check-label" for="advanced_statistical">
-                            Advanced statistical software (SPSS, SAS, etc.)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox"
-                               value="Basic statistical software (Microsoft Excel, Google Sheets, etc.)"
-                               id="basic_statistical">
-                        <label class="form-check-label" for="basic_statistical">
-                            Basic statistical software (Microsoft Excel, Google Sheets, etc.)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox"
-                               value="Business intelligence software (Salesforce, Tableau, Spotfire, etc.)"
-                               id="business_intelligence">
-                        <label class="form-check-label" for="business_intelligence">
-                            Business intelligence software (Salesforce, Tableau, Spotfire, etc.)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox"
-                               value=" Cloud-based data software & APIs (AWS, GCP, Azure, etc.)" id="cloud_based_data">
-                        <label class="form-check-label" for="cloud_based_data">
-                            Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox"
-                               value="Local or hosted develompent environments (RStudio, JuypyterLab, etc.)"
-                               id="local_environment">
-                        <label class="form-check-label" for="local_environment">
-                            Local or hosted development environments (RStudio, JuypyterLab, etc.)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="primary_tool" type="checkbox" value="Other"
-                               id="primary_tool_other">
-                        <label class="form-check-label" for="primary_tool_other">
-                            Other
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="cloud_services_container" class="d-none container">
-            <div class="d-flex flex-row mt-5 justify-content-start">
-                <div class="question-box col-md-6">
-                    <p> Which of the following cloud computing services have you used at work or school in the last 5
-                        years (select all that apply)?</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row justify-content-end">
-                <div class="answer-box col-md-5">
-                    <p>I have experience in</p>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="Alibaba Cloud" id="alibaba">
-                        <label class="form-check-label" for="alibaba">
-                            Alibaba Cloud
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="Amazon Web Services (AWS)" id="aws">
-                        <label class="form-check-label" for="aws">
-                            Amazon Web Services (AWS)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="Google Cloud Platform ((GCP)" id="gcp">
-                        <label class="form-check-label" for="gcp">
-                            Google Cloud Platform ((GCP)
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="IBM Cloud" id="ibm_cloud">
-                        <label class="form-check-label" for="ibm_cloud">
-                            IBM Cloud
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="Microsoft Azure" id="azure">
-                        <label class="form-check-label" for="azure">
-                            Microsoft Azure
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="Other" id="cloud_services_other">
-                        <label class="form-check-label" for="cloud_services_other">
-                            Other
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="cloud_services" type="checkbox"
-                               value="I have not used any cloud providers" id="cloud_services_any">
-                        <label class="form-check-label" for="cloud_services_any">
-                            I have not used any cloud providers
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
+{#        <section id="primary_tool_container" class="container active">#}
+{#            <div class="d-flex flex-row mt-5 justify-content-start">#}
+{#                <div class="question-box col-md-6">#}
+{#                    <p>Ok, let’s have a look at your skills. Please fill in your current knowledge in the following.</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="d-flex flex-row justify-content-start">#}
+{#                <div class="question-box col-md-6">#}
+{#                    <p>What is the primary tool that you use at work or school to analyze data?</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="d-flex flex-row justify-content-end">#}
+{#                <div class="answer-box col-md-5">#}
+{#                    <p>I use</p>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox"#}
+{#                               value="Advanced statistical software (SPSS, SAS, etc.)" id="advanced_statistical">#}
+{#                        <label class="form-check-label" for="advanced_statistical">#}
+{#                            Advanced statistical software (SPSS, SAS, etc.)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox"#}
+{#                               value="Basic statistical software (Microsoft Excel, Google Sheets, etc.)"#}
+{#                               id="basic_statistical">#}
+{#                        <label class="form-check-label" for="basic_statistical">#}
+{#                            Basic statistical software (Microsoft Excel, Google Sheets, etc.)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox"#}
+{#                               value="Business intelligence software (Salesforce, Tableau, Spotfire, etc.)"#}
+{#                               id="business_intelligence">#}
+{#                        <label class="form-check-label" for="business_intelligence">#}
+{#                            Business intelligence software (Salesforce, Tableau, Spotfire, etc.)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox"#}
+{#                               value=" Cloud-based data software & APIs (AWS, GCP, Azure, etc.)" id="cloud_based_data">#}
+{#                        <label class="form-check-label" for="cloud_based_data">#}
+{#                            Cloud-based data software & APIs (AWS, GCP, Azure, etc.)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox"#}
+{#                               value="Local or hosted develompent environments (RStudio, JuypyterLab, etc.)"#}
+{#                               id="local_environment">#}
+{#                        <label class="form-check-label" for="local_environment">#}
+{#                            Local or hosted development environments (RStudio, JuypyterLab, etc.)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="primary_tool" type="checkbox" value="Other"#}
+{#                               id="primary_tool_other">#}
+{#                        <label class="form-check-label" for="primary_tool_other">#}
+{#                            Other#}
+{#                        </label>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </section>#}
+{#        <section id="cloud_services_container" class="d-none container">#}
+{#            <div class="d-flex flex-row mt-5 justify-content-start">#}
+{#                <div class="question-box col-md-6">#}
+{#                    <p> Which of the following cloud computing services have you used at work or school in the last 5#}
+{#                        years (select all that apply)?</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="d-flex flex-row justify-content-end">#}
+{#                <div class="answer-box col-md-5">#}
+{#                    <p>I have experience in</p>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="Alibaba Cloud" id="alibaba">#}
+{#                        <label class="form-check-label" for="alibaba">#}
+{#                            Alibaba Cloud#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="Amazon Web Services (AWS)" id="aws">#}
+{#                        <label class="form-check-label" for="aws">#}
+{#                            Amazon Web Services (AWS)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="Google Cloud Platform ((GCP)" id="gcp">#}
+{#                        <label class="form-check-label" for="gcp">#}
+{#                            Google Cloud Platform ((GCP)#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="IBM Cloud" id="ibm_cloud">#}
+{#                        <label class="form-check-label" for="ibm_cloud">#}
+{#                            IBM Cloud#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="Microsoft Azure" id="azure">#}
+{#                        <label class="form-check-label" for="azure">#}
+{#                            Microsoft Azure#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="Other" id="cloud_services_other">#}
+{#                        <label class="form-check-label" for="cloud_services_other">#}
+{#                            Other#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="cloud_services" type="checkbox"#}
+{#                               value="I have not used any cloud providers" id="cloud_services_any">#}
+{#                        <label class="form-check-label" for="cloud_services_any">#}
+{#                            I have not used any cloud providers#}
+{#                        </label>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </section>#}
         <section id="regular_languages_container" class="d-none container">
             <div class="d-flex flex-row mt-5 justify-content-start">
                 <div class="question-box col-md-6">
@@ -254,13 +254,13 @@
                             Other
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="regular_languages" type="checkbox"
-                               value="None" id="regular_language_any">
-                        <label class="form-check-label" for="regular_language_any">
-                            None
-                        </label>
-                    </div>
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="regular_languages" type="checkbox"#}
+{#                               value="None" id="regular_language_any">#}
+{#                        <label class="form-check-label" for="regular_language_any">#}
+{#                            None#}
+{#                        </label>#}
+{#                    </div>#}
                 </div>
             </div>
         </section>
@@ -393,217 +393,217 @@
                             Other
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="ml_frameworks" type="checkbox"
-                               value="None" id="ml_frameworks_any">
-                        <label class="form-check-label" for="ml_frameworks_any">
-                            None
-                        </label>
-                    </div>
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="ml_frameworks" type="checkbox"#}
+{#                               value="None" id="ml_frameworks_any">#}
+{#                        <label class="form-check-label" for="ml_frameworks_any">#}
+{#                            None#}
+{#                        </label>#}
+{#                    </div>#}
                 </div>
             </div>
         </section>
-        <section id="visual_libs_container" class="d-none container">
-            <div class="d-flex flex-row mt-5 justify-content-start">
-                <div class="question-box col-md-6">
-                    <p> What data visualization libraries or tools have you used in the past 5 years (select all that
-                        apply)?</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row mt-5 justify-content-end">
-                <div class="answer-box col-md-5">
-                    <p>I have experience in</p>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Altair" id="altair">
-                        <label class="form-check-label" for="altair">
-                            Altair
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Bokeh" id="bokeh">
-                        <label class="form-check-label" for="bokeh">
-                            Bokeh
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="D3" id="d3">
-                        <label class="form-check-label" for="d3">
-                            D3
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Geoplotlib" id="geoplotlib">
-                        <label class="form-check-label" for="geoplotlib">
-                            Geoplotlib
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="ggplot2" id="ggplot">
-                        <label class="form-check-label" for="ggplot">
-                            ggplot2
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Lattice" id="lattice">
-                        <label class="form-check-label" for="lattice">
-                            Lattice
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Leaflet" id="leaflet">
-                        <label class="form-check-label" for="leaflet">
-                            Leaflet
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Matplotlib" id="matplotlib">
-                        <label class="form-check-label" for="matplotlib">
-                            Matplotlib
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Plotly" id="altair">
-                        <label class="form-check-label" for="altair">
-                            Plotly
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Seaborn" id="seaborn">
-                        <label class="form-check-label" for="seaborn">
-                            Seaborn
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Shiny" id="shiny">
-                        <label class="form-check-label" for="shiny">
-                            Shiny
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="Other" id="visual_libs_other">
-                        <label class="form-check-label" for="visual_libs_other">
-                            Other
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="visual_libs" type="checkbox"
-                               value="None" id="visual_libs_any">
-                        <label class="form-check-label" for="visual_libs_any">
-                            None
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="data_container" class="d-none container">
-            <div class="d-flex flex-row mt-5 justify-content-start">
-                <div class="question-box col-md-6">
-                    <p>Which types of data do you currently interact with most often at work or school (select all that
-                        apply)?</p>
-                </div>
-            </div>
-            <div class="d-flex flex-row mt-5 justify-content-end">
-                <div class="answer-box col-md-6">
-                    <p>I interact most often with</p>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Audio Data" id="audio">
-                        <label class="form-check-label" for="audio">
-                            Audio Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Categorical Data" id="categorical">
-                        <label class="form-check-label" for="categorical">
-                            Categorical Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Genetic Data" id="genetic">
-                        <label class="form-check-label" for="genetic">
-                            Genetic Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Geospatial Data" id="geospatial">
-                        <label class="form-check-label" for="geospatial">
-                            Geospatial Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Image Data" id="image">
-                        <label class="form-check-label" for="image">
-                            Image Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Numerical Data" id="num">
-                        <label class="form-check-label" for="num">
-                            Numerical Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Sensor Data" id="sensor">
-                        <label class="form-check-label" for="sensor">
-                            Sensor Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Tabular Data" id="tabular">
-                        <label class="form-check-label" for="tabular">
-                            Tabular Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Text Data" id="text">
-                        <label class="form-check-label" for="text">
-                            Text Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Time Series Data" id="time_series">
-                        <label class="form-check-label" for="time_series">
-                            Time Series Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Video Data" id="video">
-                        <label class="form-check-label" for="video">
-                            Video Data
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="data" type="checkbox"
-                               value="Other Data" id="data_other">
-                        <label class="form-check-label" for="data_other">
-                            Other Data
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
+{#        <section id="visual_libs_container" class="d-none container">#}
+{#            <div class="d-flex flex-row mt-5 justify-content-start">#}
+{#                <div class="question-box col-md-6">#}
+{#                    <p> What data visualization libraries or tools have you used in the past 5 years (select all that#}
+{#                        apply)?</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="d-flex flex-row mt-5 justify-content-end">#}
+{#                <div class="answer-box col-md-5">#}
+{#                    <p>I have experience in</p>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Altair" id="altair">#}
+{#                        <label class="form-check-label" for="altair">#}
+{#                            Altair#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Bokeh" id="bokeh">#}
+{#                        <label class="form-check-label" for="bokeh">#}
+{#                            Bokeh#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="D3" id="d3">#}
+{#                        <label class="form-check-label" for="d3">#}
+{#                            D3#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Geoplotlib" id="geoplotlib">#}
+{#                        <label class="form-check-label" for="geoplotlib">#}
+{#                            Geoplotlib#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="ggplot2" id="ggplot">#}
+{#                        <label class="form-check-label" for="ggplot">#}
+{#                            ggplot2#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Lattice" id="lattice">#}
+{#                        <label class="form-check-label" for="lattice">#}
+{#                            Lattice#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Leaflet" id="leaflet">#}
+{#                        <label class="form-check-label" for="leaflet">#}
+{#                            Leaflet#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Matplotlib" id="matplotlib">#}
+{#                        <label class="form-check-label" for="matplotlib">#}
+{#                            Matplotlib#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Plotly" id="altair">#}
+{#                        <label class="form-check-label" for="altair">#}
+{#                            Plotly#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Seaborn" id="seaborn">#}
+{#                        <label class="form-check-label" for="seaborn">#}
+{#                            Seaborn#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Shiny" id="shiny">#}
+{#                        <label class="form-check-label" for="shiny">#}
+{#                            Shiny#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="Other" id="visual_libs_other">#}
+{#                        <label class="form-check-label" for="visual_libs_other">#}
+{#                            Other#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="visual_libs" type="checkbox"#}
+{#                               value="None" id="visual_libs_any">#}
+{#                        <label class="form-check-label" for="visual_libs_any">#}
+{#                            None#}
+{#                        </label>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </section>#}
+{#        <section id="data_container" class="d-none container">#}
+{#            <div class="d-flex flex-row mt-5 justify-content-start">#}
+{#                <div class="question-box col-md-6">#}
+{#                    <p>Which types of data do you currently interact with most often at work or school (select all that#}
+{#                        apply)?</p>#}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="d-flex flex-row mt-5 justify-content-end">#}
+{#                <div class="answer-box col-md-6">#}
+{#                    <p>I interact most often with</p>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Audio Data" id="audio">#}
+{#                        <label class="form-check-label" for="audio">#}
+{#                            Audio Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Categorical Data" id="categorical">#}
+{#                        <label class="form-check-label" for="categorical">#}
+{#                            Categorical Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Genetic Data" id="genetic">#}
+{#                        <label class="form-check-label" for="genetic">#}
+{#                            Genetic Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Geospatial Data" id="geospatial">#}
+{#                        <label class="form-check-label" for="geospatial">#}
+{#                            Geospatial Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Image Data" id="image">#}
+{#                        <label class="form-check-label" for="image">#}
+{#                            Image Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Numerical Data" id="num">#}
+{#                        <label class="form-check-label" for="num">#}
+{#                            Numerical Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Sensor Data" id="sensor">#}
+{#                        <label class="form-check-label" for="sensor">#}
+{#                            Sensor Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Tabular Data" id="tabular">#}
+{#                        <label class="form-check-label" for="tabular">#}
+{#                            Tabular Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Text Data" id="text">#}
+{#                        <label class="form-check-label" for="text">#}
+{#                            Text Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Time Series Data" id="time_series">#}
+{#                        <label class="form-check-label" for="time_series">#}
+{#                            Time Series Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Video Data" id="video">#}
+{#                        <label class="form-check-label" for="video">#}
+{#                            Video Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="data" type="checkbox"#}
+{#                               value="Other Data" id="data_other">#}
+{#                        <label class="form-check-label" for="data_other">#}
+{#                            Other Data#}
+{#                        </label>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </section>#}
         <section id="online_platforms_container" class="d-none container">
             <div class="d-flex flex-row mt-5 justify-content-start">
                 <div class="question-box col-md-6">
@@ -828,13 +828,13 @@
                             Other
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" name="media_sources" type="checkbox"
-                               value="None/I do not know" id="media_sources_any">
-                        <label class="form-check-label" for="media_sources_any">
-                            None/I do not know
-                        </label>
-                    </div>
+{#                    <div class="form-check">#}
+{#                        <input class="form-check-input" name="media_sources" type="checkbox"#}
+{#                               value="None/I do not know" id="media_sources_any">#}
+{#                        <label class="form-check-label" for="media_sources_any">#}
+{#                            None/I do not know#}
+{#                        </label>#}
+{#                    </div>#}
                 </div>
             </div>
         </section>
