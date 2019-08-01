@@ -1,16 +1,14 @@
-from flask import (
-    Blueprint, render_template, request,
-)
+from flask import (Flask, render_template, request)
 
-bp = Blueprint('form', __name__, url_prefix='')
+app = Flask(__name__)
 
 
-@bp.route('/')
+@app.route('/')
 def hello():
     return render_template('hello.html')
 
 
-@bp.route('/survey', methods=('GET', 'POST'))
+@app.route('/survey', methods=('GET', 'POST'))
 def form():
     if request.method == 'GET':
         return render_template('form.html')
@@ -20,6 +18,10 @@ def form():
         return render_template('prediction.html', salary=salary, salary_distribution=dist)
 
 
-@bp.route('/recommendation-form')
-def recommendation0_form():
+@app.route('/recommendation-form')
+def recommendation_form():
     return render_template('rec_form.html')
+
+
+if __name__ == '__main__':
+    app.run()
