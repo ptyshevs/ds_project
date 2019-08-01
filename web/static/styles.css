@@ -1,5 +1,4 @@
 #content {
-    min-height: 100vh;
     /*background-image: url('images/ds_bg-min.jpg');*/
     /*background-size: cover;*/
 }
@@ -59,4 +58,20 @@
 }
 #rec_form .form-check {
     margin-bottom: 10px;
+}
+
+.navbar{
+    background: rgba(103, 199, 68, 0.3);
+}
+
+.img-with-text {
+    text-align: center;
+    width: 100px;
+    color: #753193;
+    font-size: 1.3em;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
 }

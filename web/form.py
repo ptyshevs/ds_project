@@ -1,28 +1,40 @@
-from flask import (
-    Blueprint, render_template, request,
-)
+from flask import (Flask, render_template, request)
 
-bp = Blueprint('form', __name__, url_prefix='')
+from salary_prediction import SalaryModel
+
+app = Flask(__name__)
+model = SalaryModel()
 
 
-@bp.route('/')
+@app.route('/')
 def hello():
     return render_template('hello.html')
 
 
-@bp.route('/survey', methods=('GET', 'POST'))
+@app.route('/survey', methods=('GET', 'POST'))
 def form():
     if request.method == 'GET':
         return render_template('form.html')
     if request.method == 'POST':
-        salary = 60000
-        dist = {}
-        return render_template('prediction.html', salary=salary, salary_distribution=dist)
+        age = request.form['age']
+        country = request.form['country']
+        industry = request.form['industry']
+        role = request.form['role']
+        experience = request.form['experience']
+        activities = request.form.to_dict(flat=False)['activities']
+
+        sample = model.form_input_to_sample(age, country, industry, role, experience, activities)
+        (salary_index, dist) = model.predict(sample)
+        return render_template('prediction.html', salary=salary_index, salary_distribution=dist)
 
 
-@bp.route('/recommendation', methods=('GET', 'POST'))
-def recommendation_form():
+@app.route('/recommendation', methods=('GET', 'POST'))
+def recommendation():
     if request.method == 'GET':
         return render_template('rec_form.html')
     if request.method == 'POST'():
         return  render_template('recommendation.html')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
