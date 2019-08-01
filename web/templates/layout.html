@@ -10,6 +10,13 @@
     {% endblock %}
 </head>
 <body>
+<nav class="navbar d-flex flex-row">
+    <div class="img-with-text">
+    <img src="{{ url_for('static', filename='images/flask.png') }}" class="img-fluid"/>
+        <p>DataMate</p>
+        </div>
+    <div style="text-align: right">Project of<br/>Lviv Data Science<br/>Summer School 2019<br/>Made with &hearts;</div>
+</nav>
 <div id="content">{% block content %}{% endblock %}</div>
 {% block scripts %}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
