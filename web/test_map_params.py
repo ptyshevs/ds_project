@@ -1,10 +1,10 @@
 from unittest import TestCase
-from form_mapper import map_params
+from form_mapper import map
 
 
 class TestMap_params(TestCase):
     def test_map_params(self):
-        mapped = map_params(
+        mapped = map(
             age="20-22",
             country="US",
             industry="Tech",

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-def map_params(age, country, industry, role, experience, q11):
+def map(age, country, industry, role, experience, q11):
     # global cols
     col_num = 5  # len(cols)
     sample = pd.DataFrame(np.zeros((1, col_num)))
