@@ -3,5 +3,4 @@ pandas
 Flask
 gunicorn
 requests
-sklearn
-
+scikit-learn
