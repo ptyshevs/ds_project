@@ -1,6 +1,9 @@
 from flask import (Flask, render_template, request)
 
+from salary_prediction import SalaryModel
+
 app = Flask(__name__)
+model = SalaryModel()
 
 
 @app.route('/')
@@ -13,9 +16,16 @@ def form():
     if request.method == 'GET':
         return render_template('form.html')
     if request.method == 'POST':
-        salary = 60000
-        dist = {}
-        return render_template('prediction.html', salary=salary, salary_distribution=dist)
+        age = request.form['age']
+        country = request.form['country']
+        industry = request.form['industry']
+        role = request.form['role']
+        experience = request.form['experience']
+        activities = request.form.to_dict(flat=False)['activities']
+
+        sample = model.form_input_to_sample(age, country, industry, role, experience, activities)
+        (salary_index, dist) = model.predict(sample)
+        return render_template('prediction.html', salary=salary_index, salary_distribution=dist)
 
 
 @app.route('/recommendation-form')
