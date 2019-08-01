@@ -1,0 +1,137 @@
+{% extends "layout.html" %}
+{% block title %}Recommendation form!{% endblock %}
+{% block content %}
+    <form id="rec_form" method="post" action="">
+        <div class="container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>Ok, let’s have a look at your skills. Please fill in your current knowledge in the following.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <div class="question-box col-md-6">
+                    <p>What is the primary tool that you use at work or school to analyze data?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I use</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox"
+                               value="Advanced statistical software (SPSS, SAS, etc.)" id="advanced_statistical">
+                        <label class="form-check-label" for="advanced_statistical">
+                            Advanced statistical software (SPSS, SAS, etc.)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox"
+                               value="Basic statistical software (Microsoft Excel, Google Sheets, etc.)"
+                               id="basic_statistical">
+                        <label class="form-check-label" for="basic_statistical">
+                            Basic statistical software (Microsoft Excel, Google Sheets, etc.)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox"
+                               value="Business intelligence software (Salesforce, Tableau, Spotfire, etc.)"
+                               id="business_intelligence">
+                        <label class="form-check-label" for="business_intelligence">
+                            Business intelligence software (Salesforce, Tableau, Spotfire, etc.)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox"
+                               value=" Cloud-based data software & APIs (AWS, GCP, Azure, etc.)" id="cloud_based_data">
+                        <label class="form-check-label" for="cloud_based_data">
+                            Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox"
+                               value="Local or hosted develompent environments (RStudio, JuypyterLab, etc.)"
+                               id="local_environment">
+                        <label class="form-check-label" for="local_environment">
+                            Local or hosted development environments (RStudio, JuypyterLab, etc.)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="primary_tool" type="checkbox" value="Other"
+                               id="primary_tool_other">
+                        <label class="form-check-label" for="primary_tool_other">
+                            Other
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex flex-row mt-5 justify-content-start">
+                <div class="question-box col-md-6">
+                    <p> Which of the following cloud computing services have you used at work or school in the last 5
+                        years (select all that apply)?</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+                <div class="answer-box col-md-5">
+                    <p>I have experience in</p>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="Alibaba Cloud" id="alibaba">
+                        <label class="form-check-label" for="alibaba">
+                            Alibaba Cloud
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="Amazon Web Services (AWS)" id="aws">
+                        <label class="form-check-label" for="aws">
+                            Amazon Web Services (AWS)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="Google Cloud Platform ((GCP)" id="gcp">
+                        <label class="form-check-label" for="gcp">
+                            Google Cloud Platform ((GCP)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="IBM Cloud" id="ibm_cloud">
+                        <label class="form-check-label" for="ibm_cloud">
+                            IBM Cloud
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="Microsoft Azure" id="azure">
+                        <label class="form-check-label" for="azure">
+                            Microsoft Azure
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="Other" id="cloud_services_other">
+                        <label class="form-check-label" for="cloud_services_other">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="cloud_services" type="checkbox"
+                               value="I have not used any cloud providers" id="cloud_services_any">
+                        <label class="form-check-label" for="cloud_services_any">
+                            I have not used any cloud providers
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row">
+        </div>
+        <div class="container">
+            <div class="d-flex flex-row mt-5 justify-content-end">
+                <a href="/recomendation" class="btn btn-primary btn-md">Continue!</a>
+            </div>
+        </div>
+    </form>
+{% endblock %}

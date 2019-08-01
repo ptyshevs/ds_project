@@ -28,6 +28,7 @@
 
 .answer-box {
     position: relative;
+    padding: 15px 30px;
     background-color: #753193;
     border: 1px solid transparent;
     border-radius: 20px 20px 0 20px;
@@ -41,4 +42,7 @@
 
 .salary {
     display: block;
+}
+#rec_form .form-check {
+    margin-bottom: 15px;
 }
