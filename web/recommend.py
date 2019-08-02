@@ -96,7 +96,7 @@ class RecommenderModel:
         pairs = []
 
         for c in self.languages:
-            if c in ["None", "Other"]:
+            if c in ["None", "Other", "Bash", "Visual_Basic", "STATA"]:
                 continue
             if base_sample[self.lang_map[c]].values == 0:
                 candidate = base_sample.copy()
@@ -109,7 +109,7 @@ class RecommenderModel:
 
         pairs = []
         for c in self.frameworks:
-            if c in ["None", "Other"]:
+            if c in ["None", "Other", "Mxnet"]:
                 continue
             if base_sample[self.framework_map[c]].values == 0:
                 candidate = base_sample.copy()
@@ -136,7 +136,7 @@ class RecommenderModel:
         pairs = []
 
         for c in self.sources:
-            if c in ["None", "Other"]:
+            if c in ["None", "Other", "FiveThirtyEight"]:
                 continue
             if base_sample[self.source_map[c]].values == 0:
                 candidate = base_sample.copy()
