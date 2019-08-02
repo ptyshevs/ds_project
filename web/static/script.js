@@ -177,8 +177,8 @@ if ($('#courses_recommendations').length) {
 }
 if ($('#sources_recommendations').length) {
     var trace5 = {
-        x: window.courses_keys,
-        y: window.courses_values,
+        x: window.sources_keys,
+        y: window.sources_values,
         type: 'bar',
         marker: {
             color: 'rgb(142,124,195)'
@@ -188,7 +188,7 @@ if ($('#sources_recommendations').length) {
     var data5 = [trace5];
 
     var layout5 = {
-        title: 'Courses Recommendations',
+        title: 'Information Sources Recommendations',
         font: {
             family: 'Raleway, sans-serif'
         },
