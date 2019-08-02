@@ -30,10 +30,15 @@ function assign(trigger, toHide, toShow) {
 nextSectionButton.click(function () {
     if ($('#media_sources_container').hasClass('active')) {
         $(this).hide();
-        $('button[type=submit]').removeClass('d-none')
+        $('button[type=submit]').removeClass('d-none');
     } else {
-        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active')
+        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active');
+        $(this).text('Skip');
     }
+});
+
+$('.form-check').click(function (){
+    nextSectionButton.text('Next');
 });
 
 assign(ageInput, ageContainer, countryContainer);
@@ -41,3 +46,35 @@ assign(countryInput, countryContainer, industryContainer);
 assign(industryInput, industryContainer, roleContainer);
 assign(roleInput, roleContainer, experienceContainer);
 assign(experienceInput, experienceContainer, activitiesContainer);
+
+if ($('#salary_distribution').length) {
+    var trace1 = {
+        x: window.labels,
+        y: window.probabilities,
+        type: 'bar',
+        marker: {
+            color: 'rgb(142,124,195)'
+        }
+    };
+
+    var data = [trace1];
+
+    var layout = {
+        title: 'Your Salary Distribution',
+        font: {
+            family: 'Raleway, sans-serif'
+        },
+        showlegend: false,
+        xaxis: {
+            tickangle: -45,
+            gridwidth: 1
+        },
+        yaxis: {
+            zeroline: false,
+            gridwidth: 1
+        },
+        bargap: 0.05
+    };
+
+    Plotly.newPlot('salary_distribution', data, layout);
+}
