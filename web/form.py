@@ -1,5 +1,6 @@
 from flask import (Flask, render_template, request)
 
+# from web.salary_prediction import SalaryModel
 from salary_prediction import SalaryModel
 
 app = Flask(__name__)
@@ -42,4 +43,4 @@ def recommendation():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
