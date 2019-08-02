@@ -2,6 +2,21 @@
 {% block title %}Our Recommendations!{% endblock %}
 {% block content %}
     <div class="container">
-
+        <div class="d-flex flex-column">
+            <div id="langs_recommendations" class="mb-5"></div>
+            <div id="frameworks_recommendations" class="mb-5"></div>
+            <div id="courses_recommendations" class="mb-5"></div>
+            <div id="sources_recommendations" class="mb-5"></div>
+        </div>
     </div>
+    <script type="text/javascript">
+        window.langs_keys = {{ langs_keys | safe}};
+        window.langs_values = {{ langs_values }};
+        window.frameworks_keys = {{ frameworks_keys | safe}};
+        window.frameworks_values = {{ frameworks_values }};
+        window.courses_keys = {{ courses_keys | safe}};
+        window.courses_values = {{ courses_values }};
+        window.sources_keys = {{ sources_keys | safe}};
+        window.sources_values = {{ sources_values }};
+    </script>
 {% endblock %}

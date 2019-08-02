@@ -49,9 +49,28 @@ def recommendation():
         sources = form['media_sources'] if 'media_sources' in form else []
         sample = recom_model.form_input_to_sample(languages, frameworks, courses, sources)
         langs, frameworks, courses, sources = recom_model.get_recommendations(sample, top_n=10)
-        return render_template('recommendation.html', langs=langs, frameworks=frameworks, courses=courses, sources=sources)
+        langs_keys = [x[0] for x in langs]
+        langs_values = [x[1] for x in langs]
+        langs_min = min(langs_values)
+        langs_values = [x - langs_min + .1 for x in langs_values]
+        frameworks_keys = [x[0] for x in frameworks]
+        frameworks_values = [x[1] for x in frameworks]
+        frameworks_min = min(frameworks_values)
+        frameworks_values = [x - frameworks_min + .1 for x in frameworks_values]
+        courses_keys = [x[0] for x in courses]
+        courses_values = [x[1] for x in courses]
+        courses_min = min(courses_values)
+        courses_values = [x - courses_min + .1 for x in courses_values]
+        sources_keys = [x[0] for x in sources]
+        sources_values = [x[1] for x in sources]
+        sources_min = min(sources_values)
+        sources_values = [x - sources_min + .1 for x in sources_values]
+        return render_template('recommendation.html', langs_keys=langs_keys,langs_values=langs_values,
+                               frameworks_keys=frameworks_keys,  frameworks_values=frameworks_values,
+                               courses_keys=courses_keys, courses_values=courses_values,
+                               sources_keys=sources_keys, sources_values=sources_values)
 
 
 if __name__ == '__main__':
-    # app.run(debug=True)
+    app.run(debug=True)
     app.run()
