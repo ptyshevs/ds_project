@@ -28,13 +28,14 @@ function assign(trigger, toHide, toShow) {
 }
 
 nextSectionButton.click(function () {
-    if ($('#media_sources_container').hasClass('active')) {
+    if ($('#online_platforms_container').hasClass('active')) {
         $(this).hide();
         $('button[type=submit]').removeClass('d-none');
     } else {
-        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active');
         $(this).text('Skip');
     }
+    $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active');
+
 });
 
 $('.form-check').click(function (){
