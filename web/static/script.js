@@ -41,3 +41,35 @@ assign(countryInput, countryContainer, industryContainer);
 assign(industryInput, industryContainer, roleContainer);
 assign(roleInput, roleContainer, experienceContainer);
 assign(experienceInput, experienceContainer, activitiesContainer);
+
+if ($('#salary_distribution').length) {
+    var trace1 = {
+        x: window.labels,
+        y: window.probabilities,
+        type: 'bar',
+        marker: {
+            color: 'rgb(142,124,195)'
+        }
+    };
+
+    var data = [trace1];
+
+    var layout = {
+        title: 'Your Salary Distribution',
+        font: {
+            family: 'Raleway, sans-serif'
+        },
+        showlegend: false,
+        xaxis: {
+            tickangle: -45,
+            gridwidth: 1
+        },
+        yaxis: {
+            zeroline: false,
+            gridwidth: 1
+        },
+        bargap: 0.05
+    };
+
+    Plotly.newPlot('salary_distribution', data, layout);
+}
