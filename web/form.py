@@ -38,9 +38,11 @@ def form():
 def recommendation():
     if request.method == 'GET':
         return render_template('rec_form.html')
-    if request.method == 'POST'():
+    if request.method == 'POST':
+        form = request.form.to_dict(flat=False)
         return render_template('recommendation.html')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run()
