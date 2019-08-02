@@ -25,7 +25,7 @@ def form():
         industry = request.form['industry']
         role = request.form['role']
         experience = request.form['experience']
-        activities = request.form.to_dict(flat=False)['activities']
+        activities = request.form.to_dict(flat=False)['activities'] if 'activities' in request.form else []
 
         sample = model.form_input_to_sample(age, country, industry, role, experience, activities)
 

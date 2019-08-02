@@ -68,3 +68,11 @@
     background: #753193;
     color: white;
 }
+
+label.form-check-label{
+    cursor: pointer;
+}
+
+label.form-check-label:hover{
+    text-decoration: underline;
+}
