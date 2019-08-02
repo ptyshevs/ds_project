@@ -32,11 +32,7 @@ nextSectionButton.click(function () {
         $(this).hide();
         $('button[type=submit]').removeClass('d-none')
     } else {
-        if ($('.active').find('input[type=checkbox]').is(':checked')) {
-            $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active')
-        } else {
-            alert('Please, fill at least one option')
-        }
+        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active')
     }
 });
 
