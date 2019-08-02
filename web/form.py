@@ -31,7 +31,7 @@ def form():
          '100,000-125,000', '125,000-150,000', '150,000-200,000', '200,000-250,000', '>250,000']
 
         (salary_index, dist) = model.predict(sample)
-        return render_template('prediction.html', salary=buckets[salary_index], salary_distribution=dist)
+        return render_template('prediction.html', salary_labels=buckets, salary=buckets[salary_index], salary_distribution=dist)
 
 
 @app.route('/recommendation', methods=('GET', 'POST'))
