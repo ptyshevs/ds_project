@@ -30,12 +30,12 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: -66px;
+
     width: 128px;
     height: 128px;
-    background-image: url('images/ImageDataMate.png');
-    background-position: -76px 55px;
+    background-image: url('images/ImageDataMate.jpg');
     background-repeat: no-repeat;
+    border-radius: 50%;
 }
 
 .answer-box {
@@ -62,16 +62,5 @@
 
 .navbar{
     background: #753193;
-}
-
-.img-with-text {
-    text-align: center;
-    width: 100px;
-    color: #753193;
-    font-size: 1.3em;
-}
-
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
+    color: white;
 }
