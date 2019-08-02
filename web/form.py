@@ -2,9 +2,11 @@ from flask import (Flask, render_template, request)
 
 # from web.salary_prediction import SalaryModel
 from salary_prediction import SalaryModel
+from recommend import RecommenderModel
 
 app = Flask(__name__)
 model = SalaryModel()
+recom_model = RecommenderModel()
 
 
 @app.route('/')
@@ -40,7 +42,13 @@ def recommendation():
         return render_template('rec_form.html')
     if request.method == 'POST':
         form = request.form.to_dict(flat=False)
-        return render_template('recommendation.html')
+        languages = form['regular_languages']
+        frameworks = form['ml_frameworks']
+        courses = form['online_platforms']
+        sources = form['media_sources']
+        sample = recom_model.form_input_to_sample(languages, frameworks, courses, sources)
+        recommendation = recom_model.get_recommendations(sample, top_n=10)
+        return render_template('recommendation.html', recom=recommendation)
 
 
 if __name__ == '__main__':
