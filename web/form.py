@@ -48,8 +48,8 @@ def recommendation():
         courses = form['online_platforms'] if 'online_platforms' in form else []
         sources = form['media_sources'] if 'media_sources' in form else []
         sample = recom_model.form_input_to_sample(languages, frameworks, courses, sources)
-        recommendation = recom_model.get_recommendations(sample, top_n=10)
-        return render_template('recommendation.html', recom=recommendation)
+        langs, frameworks, courses, sources = recom_model.get_recommendations(sample, top_n=10)
+        return render_template('recommendation.html', langs=langs, frameworks=frameworks, courses=courses, sources=sources)
 
 
 if __name__ == '__main__':

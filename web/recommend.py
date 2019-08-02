@@ -105,7 +105,9 @@ class RecommenderModel:
                 dist_sum = self.summarize_distribution(dist)
                 relative_change = (dist_sum - base_sum) / base_sum
                 pairs.append((c, relative_change))
+        lang_sorted = sorted(pairs, key=lambda x:x[1], reverse=True)
 
+        pairs = []
         for c in self.frameworks:
             if c in ["None", "Other"]:
                 continue
@@ -116,8 +118,9 @@ class RecommenderModel:
                 dist_sum = self.summarize_distribution(dist)
                 relative_change = (dist_sum - base_sum) / base_sum
                 pairs.append((c, relative_change))     
+        fw_sorted = sorted(pairs, key=lambda x:x[1], reverse=True)
 
-
+        pairs = []
         for c in self.courses:
             if c in ["None", "Other"]:  # We shouldn't even evaluate those options
                 continue
@@ -128,6 +131,9 @@ class RecommenderModel:
                 dist_sum = self.summarize_distribution(dist)
                 relative_change = (dist_sum - base_sum) / base_sum
                 pairs.append((c, relative_change))
+        course_sorted = sorted(pairs, key=lambda x:x[1], reverse=True)
+
+        pairs = []
 
         for c in self.sources:
             if c in ["None", "Other"]:
@@ -140,8 +146,5 @@ class RecommenderModel:
                 relative_change = (dist_sum - base_sum) / base_sum
                 pairs.append((c, relative_change))  
 
-        ordered = sorted(pairs, key=lambda x:x[1], reverse=True)
-        if top_n is None:
-            return ordered
-        else:
-            return ordered[:top_n]
+        sources_sorted = sorted(pairs, key=lambda x:x[1], reverse=True)
+        return lang_sorted, fw_sorted, course_sorted, sources_sorted
