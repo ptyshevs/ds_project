@@ -30,10 +30,15 @@ function assign(trigger, toHide, toShow) {
 nextSectionButton.click(function () {
     if ($('#media_sources_container').hasClass('active')) {
         $(this).hide();
-        $('button[type=submit]').removeClass('d-none')
+        $('button[type=submit]').removeClass('d-none');
     } else {
-        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active')
+        $('.active').addClass('d-none').removeClass('active').next().removeClass('d-none').addClass('active');
+        $(this).text('Skip');
     }
+});
+
+$('.form-check').click(function (){
+    nextSectionButton.text('Next');
 });
 
 assign(ageInput, ageContainer, countryContainer);
