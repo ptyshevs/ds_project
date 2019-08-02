@@ -1,8 +1,9 @@
 from flask import (Flask, render_template, request)
 
-# from web.salary_prediction import SalaryModel
-from salary_prediction import SalaryModel
-from recommend import RecommenderModel
+from web.salary_prediction import SalaryModel
+# from salary_prediction import SalaryModel
+from web.recommend import RecommenderModel
+# from recommend import RecommenderModel
 
 app = Flask(__name__)
 model = SalaryModel()
@@ -52,5 +53,5 @@ def recommendation():
 
 
 if __name__ == '__main__':
-    # app.run(debug=True)
-    app.run()
+    app.run(debug=True)
+    # app.run()
